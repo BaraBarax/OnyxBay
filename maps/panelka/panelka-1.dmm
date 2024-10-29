@@ -1,163 +1,208 @@
-"bo" = (/obj/machinery/light_switch{dir = 8; pixel_x = 24; pixel_y = -4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
-"bw" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
+"as" = (/turf/simulated/floor/trim/lino,/area/polarplanet/street)
+"au" = (/obj/structure/table/woodentable,/obj/item/paper/crumpled{pixel_x = 6; pixel_y = 5},/obj/item/paper/crumpled{pixel_y = -6; pixel_x = -7},/obj/item/folder/white{pixel_x = -1; pixel_y = 3},/obj/item/paper/crumpled{pixel_y = -3; pixel_x = 3},/obj/effect/floor_decal/spline/fancy/wood{dir = 1},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
+"aT" = (/obj/item/trash/sosjerky,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
+"bo" = (/obj/machinery/light_switch{dir = 8; pixel_x = 24; pixel_y = -4},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; icon = null; icon_state = null},/obj/machinery/power/terminal{dir = 4},/obj/structure/cable{icon_state = "0-2"; d2 = 2},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
+"bw" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "bE" = (/obj/effect/decal/cleanable/cobweb,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "bX" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
 "ck" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/power/debug_items/infinite_generator,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "cS" = (/turf/simulated/wall,/area/crew_quarters/sleep/cabin1)
+"dy" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/ntnet_relay,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
+"dA" = (/obj/item/modular_computer/console/preset/medical,/obj/effect/floor_decal/spline/fancy/wood{dir = 8},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
 "dB" = (/obj/structure/mirror{pixel_x = -28},/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
+"ee" = (/turf/simulated/floor/plating,/area/polarplanet/street)
 "er" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
-"et" = (/obj/machinery/light_switch{pixel_y = 28},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
+"et" = (/obj/machinery/light_switch{pixel_y = 28},/obj/machinery/power/apc{dir = 1; emp_hardened = 1; name = "north bump"; pixel_y = 24; icon = null},/obj/machinery/power/terminal{dir = 1},/obj/structure/cable{icon_state = "0-2"; d2 = 2},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
+"eI" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/cabinet,/obj/item/reagent_containers/vessel/bottle/small/beer,/obj/item/reagent_containers/vessel/bottle/small/beer,/obj/item/reagent_containers/food/packaged/sosjerky,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "fh" = (/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "fo" = (/obj/effect/decal/cleanable/dirt,/obj/structure/table/woodentable,/obj/item/plant_pot/woodyshrub{pixel_y = 9; pixel_x = -6},/obj/item/material/ashtray/plastic{pixel_x = 4; pixel_y = 3},/obj/item/storage/fancy/cigarettes/professionals{opened = 1},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
-"gu" = (/obj/structure/snow,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
+"gz" = (/obj/structure/closet/cabinet,/turf/simulated/floor/trim/wood,/area/polarplanet/street)
 "gU" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/storage/box/donkpockets{pixel_x = 3; pixel_y = 3},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin6)
 "hP" = (/obj/effect/decal/cleanable/dirt,/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "in" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{icon_state = "2-4"; d2 = 4; d1 = 2},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
 "iv" = (/turf/space,/area/space)
 "ix" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
+"iC" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/trim/wood,/area/polarplanet/street)
+"jb" = (/obj/structure/window_frame/reinforced/hull,/obj/structure/curtain/open/bed{name = "brown curtain"; icon_state = "closed"},/turf/simulated/floor/plating,/area/polarplanet/street)
 "jH" = (/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
 "jP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/unpowered/simple/wood{locked = 1; lock = "1"},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin3)
-"km" = (/obj/item/reagent_containers/food/packaged/sosjerky,/obj/machinery/power/apc{dir = 1; emp_hardened = 1; name = "north bump"; pixel_y = 24; icon = null},/obj/machinery/power/terminal{dir = 1},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/trim/wood{icon_state = "wood_broken0"},/area/crew_quarters/sleep/cabin1)
-"lC" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/trim/wood{icon_state = "wood_broken4"},/area/crew_quarters/sleep/cabin3)
+"kj" = (/obj/machinery/door/airlock{locked = 1; name = "103"},/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
+"km" = (/obj/item/reagent_containers/food/packaged/sosjerky,/turf/simulated/floor/trim/wood/broken0,/area/crew_quarters/sleep/cabin1)
+"kz" = (/obj/machinery/papershredder{icon = 'icons/obj/stationobjs.dmi'; icon_state = "wooden_tv_unpowered"; name = "TV"; desc = "An old TV. Looks broken..."},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"lC" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/trim/wood/broken4,/area/crew_quarters/sleep/cabin3)
 "lD" = (/obj/structure/flora/pottedplant/overgrownbush,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "lI" = (/obj/machinery/space_heater,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
-"mv" = (/obj/machinery/light/small/hl{dir = 1},/turf/simulated/floor/trim/wood{icon_state = "wood_broken2"},/area/crew_quarters/sleep/cabin2)
+"mv" = (/obj/machinery/light/small/hl{dir = 1},/turf/simulated/floor/trim/wood/broken2,/area/crew_quarters/sleep/cabin2)
 "mG" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
-"mL" = (/obj/structure/table/woodentable,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/item/modular_computer/laptop/preset/custom_loadout/cheap,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
+"mL" = (/obj/structure/table/woodentable,/obj/item/modular_computer/laptop/preset/custom_loadout/cheap,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
 "nn" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/machinery/light/small/hl{dir = 8},/obj/random/trash,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
-"nJ" = (/obj/machinery/power/apc{name = "south bump"; pixel_y = -24; icon = null},/obj/machinery/power/terminal,/obj/structure/cable,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
+"nJ" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "nV" = (/obj/effect/decal/cleanable/blood,/obj/structure/closet/medical_wall/filled{pixel_y = 30},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
 "og" = (/turf/simulated/wall,/area/crew_quarters/sleep/cabin5)
-"op" = (/obj/structure/snow,/obj/structure/flora/tree/pine,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
-"oJ" = (/obj/effect/decal/cleanable/dirt,/obj/item/trash/chips,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"ot" = (/turf/simulated/floor/natural/jungle/dirt,/area/polarplanet/street)
 "pr" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock{locked = 1},/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
 "pB" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "pW" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "qf" = (/obj/machinery/light/small/hl,/obj/effect/decal/cleanable/dirt,/obj/item/clothing/shoes/sandal/color/black,/obj/machinery/light_switch{dir = 4; pixel_x = -24; pixel_y = 5},/obj/random/trash,/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
 "qy" = (/obj/machinery/light/small/hl,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
 "qE" = (/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
-"rx" = (/obj/structure/snow,/obj/structure/flora/grass/brown,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
+"qJ" = (/obj/structure/table/woodentable,/obj/item/paper/crumpled{pixel_y = -2},/obj/item/paper/crumpled{pixel_x = 5; pixel_y = 5},/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
+"rA" = (/obj/effect/floor_decal/carpet{dir = 6},/obj/effect/floor_decal/carpet{dir = 4},/obj/effect/floor_decal/carpet{dir = 6},/obj/effect/floor_decal/carpet{dir = 4},/obj/effect/floor_decal/carpet,/obj/effect/floor_decal/carpet{dir = 6},/turf/simulated/floor/trim/carpet,/area/polarplanet/street)
 "rE" = (/obj/effect/floor_decal/oldflood,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin6)
-"rW" = (/obj/structure/closet/crate/bin{desc = "A large bin. For trash."; name = "Trash bin"},/turf/simulated/floor/trim/wood{icon_state = "wood_broken6"},/area/crew_quarters/sleep/cabin3)
-"rZ" = (/obj/item/modular_computer/console/preset/medical{icon = 'icons/obj/stationobjs.dmi'; icon_state = "wooden_tv_unpowered"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
-"si" = (/obj/structure/table/standard,/obj/structure/bedsheetbin,/obj/machinery/power/apc{name = "west bump"; dir = 8; pixel_x = -24; icon = null},/obj/machinery/power/terminal{dir = 8},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/effect/decal/cleanable/cobweb{dir = 4},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"rW" = (/obj/structure/closet/crate/bin{desc = "A large bin. For trash."; name = "Trash bin"; anchored = 1},/turf/simulated/floor/trim/wood{icon_state = "wood_broken6"},/area/crew_quarters/sleep/cabin3)
+"si" = (/obj/structure/table/standard,/obj/structure/bedsheetbin,/obj/effect/decal/cleanable/cobweb{dir = 4},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"sz" = (/obj/effect/floor_decal/spline/fancy/wood/three_quarters,/turf/simulated/floor/trim/carpet/oldred,/area/polarplanet/street)
+"sA" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled/white,/area/polarplanet/street)
+"sK" = (/obj/effect/decal/cleanable/dirt,/obj/item/trash/chips,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"sY" = (/obj/structure/coatrack,/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
+"tq" = (/obj/effect/floor_decal/spline/fancy/wood,/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
+"tA" = (/obj/structure/table/woodentable,/obj/item/plant_pot/subterranean{pixel_y = 4; pixel_x = 1},/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
 "vl" = (/obj/machinery/door/unpowered/simple/wood,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "vu" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
+"vx" = (/turf/simulated/floor/natural/jungle/grassedge{icon_state = "grassdirt_edge"; dir = 8},/area/polarplanet/street)
+"vH" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
 "wM" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
 "wW" = (/turf/simulated/wall,/area/crew_quarters/sleep/cabin3)
-"xn" = (/obj/machinery/door/airlock{id_tag = "UDorm 1"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/lino,/area/polarplanet/hallway/primary/central_fore)
+"xn" = (/obj/machinery/door/airlock{id_tag = "UDorm 1"; name = "101"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/lino,/area/polarplanet/hallway/primary/central_fore)
+"xs" = (/obj/structure/table/standard{name = "plastic table frame"},/turf/simulated/floor/tiled/white,/area/polarplanet/street)
+"xw" = (/obj/structure/table/woodentable,/obj/item/paper_bin,/obj/item/pen,/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
 "xy" = (/obj/machinery/door/unpowered/simple/wood,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
+"xN" = (/turf/simulated/wall,/area/polarplanet/street)
 "xW" = (/obj/structure/table/woodentable,/obj/effect/decal/cleanable/dirt,/obj/item/reagent_containers/vessel/glass/square,/obj/item/cigbutt/professionals,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
+"yM" = (/obj/machinery/light/small,/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
 "yV" = (/obj/structure/coatrack,/obj/machinery/button/remote/airlock{name = "Door Bolts"; dir = 8; pixel_x = 24; id = "UDorm 1"; specialfunctions = 4; pixel_y = -4},/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
 "zn" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/microwave{pixel_y = 6},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin6)
 "zy" = (/turf/simulated/wall,/area/crew_quarters/sleep/cabin4)
-"zD" = (/obj/effect/decal/cleanable/cobweb{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/machinery/power/terminal,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/apc{name = "south bump"; pixel_y = -24; icon = null},/turf/simulated/floor/trim/wood{icon_state = "wood_broken0"},/area/crew_quarters/sleep/cabin2)
-"zF" = (/obj/machinery/light/small/hl{dir = 4},/obj/item/reagent_containers/syringe,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"zD" = (/obj/effect/decal/cleanable/cobweb{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/trim/wood/broken0,/area/crew_quarters/sleep/cabin2)
+"zF" = (/obj/machinery/light/small/hl{dir = 4},/obj/item/reagent_containers/syringe,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
 "zG" = (/obj/effect/floor_decal/rust,/obj/effect/decal/cleanable/blood/drip,/obj/machinery/washing_machine,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
-"Ay" = (/obj/structure/bed/couch/left/brown{dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"Ab" = (/obj/structure/table/woodentable,/turf/simulated/floor/trim/wood,/area/polarplanet/street)
+"Ak" = (/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
+"Ay" = (/obj/structure/bed/couch/left/brown{dir = 1},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "AC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "AR" = (/turf/simulated/wall,/area/crew_quarters/sleep/cabin2)
 "Be" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"Bh" = (/obj/structure/snow,/obj/structure/flora/tree/pine,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
+"Bn" = (/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/trim/wood{icon_state = "wood_broken0"},/area/polarplanet/street)
 "By" = (/obj/machinery/door/airlock{locked = 1},/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
 "BB" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
-"CL" = (/obj/effect/floor_decal/rust,/obj/effect/decal/cleanable/dirt,/obj/machinery/shower{dir = 1},/obj/structure/curtain/open/shower,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"; tag = ""},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"CG" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
+"CL" = (/obj/effect/floor_decal/rust,/obj/effect/decal/cleanable/dirt,/obj/machinery/shower{dir = 1},/obj/structure/curtain/open/shower,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
 "De" = (/obj/structure/sink{pixel_y = -12},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin6)
 "Dg" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "Dp" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "Eh" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
-"EH" = (/obj/machinery/light_switch{dir = 4; pixel_x = -24; pixel_y = 5},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
-"Fa" = (/obj/structure/flora/grass/brown,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
+"EH" = (/obj/machinery/light_switch{dir = 4; pixel_x = -24; pixel_y = 5},/obj/machinery/power/apc{name = "west bump"; dir = 8; pixel_x = -24; icon = null},/obj/machinery/power/terminal{dir = 8},/obj/structure/cable,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
+"EJ" = (/obj/structure/table/woodentable,/obj/item/storage/fancy/cigarettes/menthols{pixel_y = 5; pixel_x = 6; opened = 1},/obj/item/flame/lighter/zippo/onyx{pixel_y = -4; pixel_x = -5},/turf/simulated/floor/trim/wood,/area/polarplanet/street)
 "Fn" = (/obj/machinery/light/small/hl{dir = 1},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
-"Fr" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{icon_state = "2-4"; d2 = 4; d1 = 2},/obj/item/cigbutt/professionals,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
+"Fr" = (/obj/effect/decal/cleanable/dirt,/obj/item/cigbutt/professionals,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "Fx" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "Fz" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "FW" = (/turf/simulated/wall,/area/crew_quarters/sleep/cabin6)
 "Hf" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/secure_closet/freezer/fridge,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin6)
-"IP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/trim/wood{icon_state = "wood_broken0"},/area/crew_quarters/sleep/cabin3)
-"Jh" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/ntnet_relay,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
+"Hk" = (/obj/effect/floor_decal/carpet{dir = 9},/obj/effect/floor_decal/carpet{dir = 8},/obj/effect/floor_decal/carpet{dir = 1},/obj/effect/floor_decal/carpet{dir = 9},/turf/simulated/floor/trim/carpet,/area/polarplanet/street)
+"IP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/trim/wood/broken0,/area/crew_quarters/sleep/cabin3)
+"IX" = (/obj/machinery/papershredder,/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
+"Jg" = (/obj/machinery/door/airlock{locked = 1; name = "104"},/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
 "Jl" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/item/material/knife/kitchen,/obj/item/material/kitchen/rollingpin,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin6)
+"Jn" = (/turf/simulated/floor/trim/wood,/area/polarplanet/street)
+"Jv" = (/obj/effect/floor_decal/carpet{dir = 10},/obj/effect/floor_decal/carpet{dir = 8},/obj/effect/floor_decal/carpet,/obj/effect/floor_decal/carpet{dir = 10},/turf/simulated/floor/trim/carpet,/area/polarplanet/street)
 "JX" = (/obj/structure/bed/chair/brown{dir = 8},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
-"Ki" = (/obj/effect/decal/cleanable/dirt,/obj/structure/toilet{dir = 1; pixel_y = -5},/obj/item/soap,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"Ki" = (/obj/effect/decal/cleanable/dirt,/obj/structure/toilet{dir = 1; pixel_y = -5},/obj/item/soap,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"Kx" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
 "KB" = (/obj/random/trash,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "KT" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small/hl{dir = 4; icon_state = "hanginglantern-broken"; light_type = null},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
-"LS" = (/obj/structure/bed/couch/right/brown{dir = 1},/obj/item/cigbutt/professionals,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"Lw" = (/obj/machinery/door/airlock{locked = 1; name = "102"},/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
+"LM" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
+"LS" = (/obj/structure/bed/couch/right/brown{dir = 1},/obj/item/cigbutt/professionals,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "Mz" = (/obj/structure/closet/cabinet,/obj/item/clothing/under/shorts/jeans/black/female,/obj/item/clothing/under/dress/maid,/obj/item/clothing/head/kitty,/obj/item/underwear/neck/choker{color = "#ffffff"},/obj/item/clothing/accessory/sweater,/obj/item/clothing/suit/ianshirt,/obj/item/clothing/suit/storage/hooded/wintercoat,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
+"MA" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 10},/turf/simulated/floor/trim/carpet/gpurple,/area/polarplanet/street)
+"MG" = (/obj/structure/snow,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
+"NK" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/trim/lino,/area/polarplanet/street)
+"NL" = (/turf/simulated/floor/natural/jungle/grassedge{icon_state = "grassdirt_edge"; dir = 4},/area/polarplanet/street)
 "On" = (/obj/structure/window_frame/reinforced/hull,/turf/simulated/floor/plating,/area/crew_quarters/sleep/cabin3)
 "Oo" = (/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
-"Ot" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/cabinet,/obj/item/reagent_containers/vessel/bottle/small/beer,/obj/item/reagent_containers/vessel/bottle/small/beer,/obj/item/reagent_containers/food/packaged/sosjerky,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "OO" = (/obj/structure/mirror{icon_state = "mirror_broke"; pixel_x = -28; shattered = 1},/obj/effect/decal/cleanable/dirt,/obj/structure/sink{dir = 8; pixel_x = -11; pixel_y = 2},/obj/effect/decal/cleanable/blood,/obj/item/material/kitchen/utensil/knife/boot,/obj/item/stack/medical/bruise_pack{amount = 3},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
 "Pm" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light/small/hl{dir = 1},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
 "Ps" = (/obj/machinery/light/small/hl{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
-"PV" = (/obj/machinery/light_switch{dir = 4; pixel_x = -24; pixel_y = -3},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"PV" = (/obj/machinery/light_switch{dir = 4; pixel_x = -24; pixel_y = -3},/obj/machinery/power/apc{name = "west bump"; dir = 8; pixel_x = -24; icon = null},/obj/machinery/power/terminal{dir = 8},/obj/structure/cable{icon_state = "0-2"; d2 = 2},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
+"PZ" = (/obj/structure/bed/padded,/obj/item/bedsheet/purple,/obj/effect/floor_decal/carpet{dir = 5},/obj/effect/floor_decal/carpet{dir = 4},/obj/effect/floor_decal/carpet{dir = 1},/obj/effect/floor_decal/carpet{dir = 5},/turf/simulated/floor/trim/carpet,/area/polarplanet/street)
 "Qe" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled{icon_state = "steel_dirty"},/area/polarplanet/hallway/primary/central_fore)
 "Qu" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
+"Qw" = (/turf/simulated/floor/natural/jungle,/area/polarplanet/street)
 "QH" = (/obj/structure/undies_wardrobe,/obj/machinery/power/apc{name = "south bump"; pixel_y = -24},/obj/machinery/power/terminal,/obj/structure/cable,/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
 "QP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "Rk" = (/obj/effect/decal/cleanable/blood/drip,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
 "RL" = (/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
-"Tn" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/chair/brown,/obj/machinery/power/terminal{dir = 8},/obj/structure/cable,/obj/machinery/power/apc{name = "west bump"; dir = 8; pixel_x = -24; icon = null},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
+"RM" = (/obj/structure/flora/grass/brown,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
+"Tn" = (/obj/structure/bed/chair/brown,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
+"TA" = (/obj/structure/bed/chair/comfy/beige{dir = 1; icon_state = "comfychair_preview"},/obj/machinery/light/small,/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
 "TL" = (/obj/structure/bed/chair/brown,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "UV" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light/small/hl{dir = 8},/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
-"VJ" = (/obj/item/trash/sosjerky,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
+"Vk" = (/obj/structure/snow,/obj/structure/flora/grass/brown,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
 "Wd" = (/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/obj/machinery/power/terminal{dir = 8},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "Wm" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bookcase,/obj/machinery/washing_machine,/obj/structure/table/standard,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "WA" = (/turf/unsimulated/mineral,/area/polarplanet/street)
-"Xa" = (/obj/structure/bed,/obj/item/bedsheet/brown,/obj/effect/decal/cleanable/blood/drip,/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
-"Xq" = (/obj/effect/floor_decal/rust,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/blood/drip,/obj/machinery/light_switch{dir = 8; pixel_x = 24; pixel_y = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"Xa" = (/obj/structure/bed,/obj/item/bedsheet/brown,/obj/effect/decal/cleanable/blood/drip,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
+"Xq" = (/obj/effect/decal/cleanable/blood/drip,/obj/machinery/light_switch{dir = 8; pixel_x = 24; pixel_y = 4},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24; icon = null; icon_state = null},/obj/machinery/power/terminal{dir = 4},/obj/structure/cable,/obj/effect/floor_decal/rust,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
+"XN" = (/obj/structure/bookcase/manuals/medical,/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
 "Yk" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
+"Ym" = (/turf/simulated/floor/tiled/white,/area/polarplanet/street)
+"Yq" = (/obj/structure/bed/chair/comfy/beige,/turf/simulated/floor/trim/darkwood,/area/polarplanet/street)
 "YR" = (/obj/machinery/light/small/hl{dir = 4},/obj/random/trash,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
-"ZK" = (/obj/structure/curtain/open/bed{name = "brown curtain"},/obj/structure/window_frame/reinforced/hull,/turf/simulated/floor/plating,/area/crew_quarters/sleep/cabin1)
+"Ze" = (/obj/structure/window_frame/relectric/rglass,/turf/simulated/floor/plating,/area/polarplanet/street)
+"ZK" = (/obj/structure/curtain/open/bed{name = "brown curtain"; icon_state = "closed"},/obj/structure/window_frame/reinforced/hull,/turf/simulated/floor/plating,/area/crew_quarters/sleep/cabin1)
 
 (1,1,1) = {"
-WAWAWAWAWAWAWAWAWAWAWAWAWAcScScScScSARARARARqEqEqEqEWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWA
-WAgugugugugugugugurxgugugucSMzkmXacSbEmvrZlDqEerjHqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WArxguguopgugugugurxOorxguZKVJwMmLcSoJBeBBOtqEerYRqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugurxgugurxguopguguOoOocSlIqybocSPVAyLSzDqEerQeqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguOoguguguguguguguOowWwWwWQPwWvlzyzyzyqEererqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguOogugurxOoguopguguOnFnWmFzetIPzydByVqEfherqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugurxguguopguOoOorxguguOnTLFrlCbwpBxymGinxnDpQuByOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguOoOoguguguOoguguguguOnfonJvurWKTzyqfQHqEUVDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguOoOoopguguguguguOoguwWwWwWjPwWvlzyzyzyqEerDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguopguOoguguguguguopOoOoogOOnVXqogEHPmgUznqEfhDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAFaOogugurxguOoopguguguguogzGRkzFogTnRLrEJlqEerDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguOoguguguOoOoFaguguguguogsiKiCLogxWJXDeHfqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguFaguguguOoOoguguguOoogogogogogFWFWFWFWqEKBPsqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguopguOoOoguguguguguguguguqEerbXqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguopguguguguguguFaFaguguguguguguguguqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguopguguguOogurxOoOoguguguguguguguguguguguqEerFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugurxOoguguguOoOoOoguguguguguguguopguguqEjHDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguOoOoguguguguqEnnDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugugugugugugurxguguopOoOoguguguguByerDgByOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguopguguguguguguguguguguguguguguqEfhYkqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugurxguguguguguguguguguguguguguguguguguqEixpWqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAopguguguguguguguguguguguguguguguguguguguguqEjHDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugugugugurxrxguguguguguguguguopguqEhPPsqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugugugugugugugugugugugurxguguguguqEByprqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguopguguguguguguguguguguguqEjHFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguopguguguguguguguopguguguguguguguguqEerEhqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgurxguguguguguguguguguguguguguguguopguguguqEfhDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugugugugurxgugugugugurxguguguguguqEjHDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguopguguguguguguguguguguguguguguqEerDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguguguguguguguqEfhEhqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguopguguguguguqEfhDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgurxguguopguguguguopguguguguguguguguguguguqEfhDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguguguguopguguqEfhDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguopgurxguguguguguguguqEerbXqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguguguguguguguqEfhYkqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguopguguguguguguguguguguguguguguguguguguguqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugugugurxguguguguguguguguguopguguqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguopgugugurxguqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugurxguguopguguguguguopguguguguguguguguguqEfhDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugugugugugugugugurxguguguguguguguqEjHDgqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugurxgugugugugugugugugugugurxguguqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguguguguguguguqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugugugugugugugugugugugugugugugugurxguguqEACFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguopgugugugugugugurxguopguguguguguguguguqEerFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAgugugurxguguguguguguguguguguguguguguguguguqEjHFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguopguguguguguqEfhFxqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguopgugugurxguguguguguguopguqEerYkqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguguguguguguguqEACJhqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
-WAguguguguguguguguguguguguguguguguguguguguguqEWdckqEOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoWA
+WAWAWAWAWAWAWAWAWAWAWAWAWAcScScScScSARARARARqEqEqEqExNxNxNxNxNxNxNxNxNxNWAWAWAWAWAWAWAWAWAWAWAWAWAWA
+WAMGMGMGMGMGMGMGMGVkMGMGMGcSMzkmXacSbEmvkzlDqEerjHqExsxsxsxsxNBnxwauqJxNQwQwQwQwQwNLototvxQwQwQwQwWA
+WAVkMGMGBhMGMGMGMGVkOoVkMGZKaTwMmLcSsKBeBBeIqEerYRqEYmYmYmYmxNJndAKxvHZeQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGVkMGMGVkMGBhMGMGOoOocSlIqybocSPVAyLSzDqEerQeqEasasasasxNJnMAtqIXxNQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGOoMGMGMGMGMGMGMGOowWwWwWQPwWvlzyzyzyqEererqExNxNNKxNxNxNxNiCxNxNQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGOoMGMGVkOoMGBhMGMGOnFnWmFzetIPzydByVqEfherqEsYAkAkAkLMXNXNAkYqZeQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGVkMGMGBhMGOoOoVkMGMGOnTLFrlCbwpBxymGinxnDpQukjszAkAkAkAkAkAkAktAZeQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGOoOoMGMGMGOoMGMGMGMGOnfonJvurWKTzyqfQHqEUVDgqEAkyMAkAkAkAkAkAkTAZeQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGOoOoBhMGMGMGMGMGOoMGwWwWwWjPwWvlzyzyzyqEerDgqExNxNsAxNxNxNxNCGxNxNQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGBhMGOoMGMGMGMGMGBhOoOoogOOnVXqogEHPmgUznqEfhDgqEYmYmYmYmxNgzJnHkPZxNQwQwQwQwQwNLototvxQwQwQwQwWA
+WARMOoMGMGVkMGOoBhMGMGMGMGogzGRkzFogTnRLrEJlqEerDgqEYmYmYmYmxNEJJnJvrAZeQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGOoMGMGMGOoOoRMMGMGMGMGogsiKiCLogxWJXDeHfqEfhFxqEYmYmYmYmxNAbJnJnJnZeQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGRMMGMGMGOoOoMGMGMGOoogogogogogFWFWFWFWqEKBPsqExNxNxNxNxNxNxNZeZexNQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGBhMGOoOoMGMGMGMGMGMGMGMGqEerbXqEeeeeeeeeeeeexNQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGBhMGMGMGMGMGMGRMRMMGMGMGMGMGMGMGMGqEfhFxqEeeeeeeeeeeeejbQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGBhMGMGMGOoMGVkOoOoMGMGMGMGMGMGMGMGMGMGMGqEerFxqEeeeeeeeeeeeejbQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGVkOoMGMGMGOoOoOoMGMGMGMGMGMGMGBhMGMGqEjHDgqEeeeeeeeeeeeejbQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGOoOoMGMGMGMGqEnnDgqEeeeeeeeeeeeexNQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGVkMGMGBhOoOoMGMGMGMGLwerDgJgeeeeeeeeeeeejbQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGBhMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEfhYkqEeeeeeeeeeeeejbQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGVkMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEixpWqEeeeeeeeeeeeejbQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WABhMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEjHDgqEeeeeeeeeeeeexNQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGVkVkMGMGMGMGMGMGMGMGBhMGqEhPPsqExNxNxNxNxNxNxNQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGVkMGMGMGMGqEByprqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGBhMGMGMGMGMGMGMGMGMGMGMGqEjHFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGBhMGMGMGMGMGMGMGBhMGMGMGMGMGMGMGMGqEerEhqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGVkMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGBhMGMGMGqEfhDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGVkMGMGMGMGMGVkMGMGMGMGMGqEjHDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGBhMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEerDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEfhEhqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGBhMGMGMGMGMGqEfhDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGVkMGMGBhMGMGMGMGBhMGMGMGMGMGMGMGMGMGMGMGqEfhDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGBhMGMGqEfhDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGBhMGVkMGMGMGMGMGMGMGqEerbXqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEfhYkqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGBhMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEfhFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGVkMGMGMGMGMGMGMGMGMGBhMGMGqEfhFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGBhMGMGMGVkMGqEfhFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGVkMGMGBhMGMGMGMGMGBhMGMGMGMGMGMGMGMGMGqEfhDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGVkMGMGMGMGMGMGMGqEjHDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGVkMGMGMGMGMGMGMGMGMGMGMGVkMGMGqEfhFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEfhFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGVkMGMGqEACFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGBhMGMGMGMGMGMGMGVkMGBhMGMGMGMGMGMGMGMGqEerFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGVkMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEjHFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGBhMGMGMGMGMGqEfhFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGBhMGMGMGVkMGMGMGMGMGMGBhMGqEerYkqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEACdyqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEWdckqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAqEqEqEqEWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWA
 "}
 (1,1,2) = {"
