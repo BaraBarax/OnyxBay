@@ -30,7 +30,7 @@
 "iv" = (/turf/space,/area/space)
 "ix" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
 "iC" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/trim/wood,/area/polarplanet/street)
-"jb" = (/obj/structure/window_frame/reinforced/hull,/obj/structure/curtain/open/bed{name = "brown curtain"; icon_state = "closed"},/turf/simulated/floor/plating,/area/polarplanet/street)
+"jb" = (/obj/structure/window_frame/reinforced/hull,/obj/structure/curtain/open/bed{name = "brown curtain"; icon_state = "closed"; opacity = 1},/turf/simulated/floor/plating,/area/polarplanet/street)
 "jH" = (/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
 "jP" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/unpowered/simple/wood{locked = 1; lock = "1"},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin3)
 "kj" = (/obj/machinery/door/airlock{locked = 1; name = "103"},/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
@@ -51,7 +51,7 @@
 "nV" = (/obj/effect/decal/cleanable/blood,/obj/structure/closet/medical_wall/filled{pixel_y = 30},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
 "og" = (/turf/simulated/wall,/area/crew_quarters/sleep/cabin5)
 "ot" = (/turf/simulated/floor/natural/jungle/dirt,/area/polarplanet/street)
-"pr" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock,/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
+"pr" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock,/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
 "pB" = (/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "pW" = (/obj/effect/floor_decal/snow,/obj/effect/floor_decal/rust,/turf/simulated/floor/plating,/area/polarplanet/street)
 "qf" = (/obj/machinery/light/small/hl,/obj/effect/decal/cleanable/dirt,/obj/item/clothing/shoes/sandal/color/black,/obj/machinery/light_switch{dir = 4; pixel_x = -24; pixel_y = 5},/obj/random/trash,/turf/simulated/floor/trim/lino,/area/crew_quarters/sleep/cabin4)
@@ -62,7 +62,7 @@
 "rA" = (/obj/effect/floor_decal/carpet{dir = 6},/obj/effect/floor_decal/carpet{dir = 4},/obj/effect/floor_decal/carpet{dir = 6},/obj/effect/floor_decal/carpet{dir = 4},/obj/effect/floor_decal/carpet,/obj/effect/floor_decal/carpet{dir = 6},/turf/simulated/floor/trim/carpet,/area/polarplanet/street)
 "rE" = (/obj/effect/floor_decal/oldflood,/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin6)
 "rW" = (/obj/structure/closet/crate/bin{desc = "A large bin. For trash."; name = "Trash bin"; anchored = 1},/turf/simulated/floor/trim/wood{icon_state = "wood_broken6"},/area/crew_quarters/sleep/cabin3)
-"sf" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
+"sf" = (/obj/effect/floor_decal/snow,/obj/effect/landmark/joinlate,/obj/item/clothing/suit/storage/hooded/wintercoat,/turf/simulated/floor/plating,/area/polarplanet/street)
 "si" = (/obj/structure/table/standard,/obj/structure/bedsheetbin,/obj/effect/decal/cleanable/cobweb{dir = 4},/turf/simulated/floor/tiled/white,/area/crew_quarters/sleep/cabin5)
 "sz" = (/obj/effect/floor_decal/spline/fancy/wood/three_quarters,/turf/simulated/floor/trim/carpet/oldred,/area/polarplanet/street)
 "sA" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled/white,/area/polarplanet/street)
@@ -98,7 +98,7 @@
 "Be" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "Bh" = (/obj/structure/snow,/obj/structure/flora/tree/pine,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
 "Bn" = (/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/trim/wood{icon_state = "wood_broken0"},/area/polarplanet/street)
-"By" = (/obj/machinery/door/airlock,/turf/simulated/wall,/area/polarplanet/hallway/primary/central_fore)
+"By" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small/hl{dir = 4},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "BB" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "BU" = (/obj/structure/bed/pew/pewchapel/right{dir = 8},/obj/structure/snow,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
 "Cd" = (/obj/structure/snow,/obj/machinery/light/small/hl{dir = 1; icon_state = "hanginglantern-broken"; light_type = null},/turf/simulated/floor/natural/frozenground,/area/polarplanet/hallway/primary/central_fore)
@@ -111,7 +111,6 @@
 "Eh" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "EH" = (/obj/machinery/light_switch{dir = 4; pixel_x = -24; pixel_y = 5},/obj/machinery/power/apc{name = "west bump"; dir = 8; pixel_x = -24; icon = null},/obj/machinery/power/terminal{dir = 8},/obj/structure/cable,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin6)
 "EJ" = (/obj/structure/table/woodentable,/obj/item/storage/fancy/cigarettes/menthols{pixel_y = 5; pixel_x = 6; opened = 1},/obj/item/flame/lighter/zippo/onyx{pixel_y = -4; pixel_x = -5},/turf/simulated/floor/trim/wood,/area/polarplanet/street)
-"Fi" = (/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled,/area/polarplanet/hallway/primary/central_fore)
 "Fn" = (/obj/machinery/light/small/hl{dir = 1},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "Fr" = (/obj/effect/decal/cleanable/dirt,/obj/item/cigbutt/professionals,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "Fx" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
@@ -179,11 +178,11 @@
 "YR" = (/obj/machinery/light/small/hl{dir = 4},/obj/random/trash,/turf/simulated/floor/tiled/dirty,/area/polarplanet/hallway/primary/central_fore)
 "Ze" = (/obj/structure/window_frame/relectric/rglass,/turf/simulated/floor/plating,/area/polarplanet/street)
 "Zm" = (/obj/structure/snow,/obj/structure/bed/pew/pewchapel/left,/turf/simulated/floor/natural/frozenground,/area/polarplanet/street)
-"ZK" = (/obj/structure/curtain/open/bed{name = "brown curtain"; icon_state = "closed"},/obj/structure/window_frame/reinforced/hull,/turf/simulated/floor/plating,/area/crew_quarters/sleep/cabin1)
+"ZK" = (/obj/structure/curtain/open/bed{name = "brown curtain"; icon_state = "closed"; opacity = 1},/obj/structure/window_frame/reinforced/hull,/turf/simulated/floor/plating,/area/crew_quarters/sleep/cabin1)
 
 (1,1,1) = {"
 WAWAWAWAWAWAWAWAWAWAWAWAWAcScScScScSARARARARqEqEqEqExNxNxNxNxNxNxNxNxNxNWAWAWAWAWAWAWAWAWAWAWAWAWAWA
-WAMGMGMGMGMGkAkAMGVkMGMGMGcSMzkmXacSbEmvkzlDqEerjHqExsxsxsxsxNBnxwauqJxNQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGsfkAMGVkMGMGMGcSMzkmXacSbEmvkzlDqEerjHqExsxsxsxsxNBnxwauqJxNQwQwQwQwQwNLototvxQwQwQwQwWA
 WAVkMGMGBhMGkApWMGVkOoVkMGZKaTwMmLcSsKBeBBeIqEerYRqEYmYmYmYmxNJndAKxvHZeQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGMGVkMGaNkAkABhMGMGOoOocSlIqybocSPVAyLSzDqEerQeqEasasasasxNJnMAtqIXxNQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGMGMGOoeZpWpWMGMGMGMGOowWwWwWQPwWvlzyzyzyqEererqExNxNNKxNxNxNxNiCxNxNQwQwQwQwQwNLototvxQwQwQwQwWA
@@ -205,9 +204,9 @@ WAMGMGMGMGMGpWkAMGMGMGMGMGjbeeeeeeeeeeeeeeeeqEfhYkqEeeeeeeeeeeeejbQwQwQwQwQwQwQw
 WAMGMGMGVkMGkApWMGMGMGMGMGjbeeeeeeeeeeeeeeeeqEixDgaDeeeeeeeeeeeejbQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WABhMGIHMGkLkAkAMGMGMGMGMGeZeeeeeeeeeeeeeeeeqEjHDgqEeeeeeeeeeeeexNQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGMGOoMGeZkApWMGBhVkVkMGxNxNxNxNeZxNxNeZxNqEerPsqExNxNxNxNxNxNxNQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
-WAMGMGMGMGCdkAkAVFxNkvMGMGMGMGagMGVkMGZmctQgqEByprqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
-WAMGMGMGMGMGkAKSpWkApWkAkAkAkAkAkApWpWpWkAkAQTFiFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
-WAMGMGMGBhMGkAkAkAkAkApWkAkAkAkAkApWpWkAkAkAQTersfqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGCdkAkAVFxNkvMGMGMGMGagMGVkMGZmctQgqEQTprqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGkAKSpWkApWkAkAkAkAkAkApWpWpWkAkAQTjHFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGBhMGkAkAkAkAkApWkAkAkAkAkApWpWkAkAkAQTerByqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGVkMGMGOokApWMGMGMGMGOoOoBhMGMGMGMGOoOoVFqEMDaoqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGMGMGMGaNkAkAMGMGVkMGMGOoMGMGVkMGMGOoMGMGaDjHDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGMGMGMGxNkAkAMGMGMGMGMGMGMGMGMGMGMGWiMGMGqEerDgqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
@@ -230,7 +229,7 @@ WAMGMGMGVkMGkApWMGMGMGMGMGMGMGMGMGMGMGMGMGMGqEjHFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQw
 WAMGMGMGMGaNkAkAMGMGMGMGMGMGMGMGBhMGMGMGMGMGqEfhFxqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGMGMGMGeZkAkAMGBhMGMGMGVkMGMGMGMGMGMGBhMGqEerYkqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAMGOoMGMGagkApWMGMGMGMGMGMGOoOoIHMGMGMGMGMGqEACdyqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
-WAMGMGMGMGMGkAkAMGMGMGMGMGMGMGMGMGOoMGMGMGMGqEWdckqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
+WAMGMGMGMGMGkAsfMGMGMGMGMGMGMGMGMGOoMGMGMGMGqEWdckqEQwQwQwQwQwQwQwQwQwQwQwQwQwQwQwNLototvxQwQwQwQwWA
 WAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAqEqEqEqEWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWAWA
 "}
 (1,1,2) = {"
