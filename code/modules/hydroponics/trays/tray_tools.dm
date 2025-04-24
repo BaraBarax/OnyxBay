@@ -6,6 +6,8 @@
 
 	icon = 'icons/obj/hydroponics_items.dmi'
 	icon_state = "plantclippers"
+	item_state = "plantclippers"
+	randicon = FALSE
 
 /obj/item/device/analyzer/plant_analyzer
 	name = "plant analyzer"

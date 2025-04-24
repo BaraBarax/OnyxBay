@@ -4,8 +4,8 @@
 	name = "head"
 	icon = 'icons/obj/clothing/hats.dmi'
 	item_icons = list(
-		slot_l_hand_str = 'icons/mob/onmob/items/lefthand_hats.dmi',
-		slot_r_hand_str = 'icons/mob/onmob/items/righthand_hats.dmi',
+		slot_l_hand_str = 'icons/inv_slots/hats/hand_l_default.dmi',
+		slot_r_hand_str = 'icons/inv_slots/hats/hand_r_default.dmi',
 		)
 	body_parts_covered = HEAD
 	slot_flags = SLOT_HEAD
@@ -37,6 +37,10 @@
 	var/cache_key = "[light_overlay]_[species_name]"
 	if(on && light_overlay_cache[cache_key] && slot == slot_head_str)
 		ret.AddOverlays(light_overlay_cache[cache_key])
+	if(item_state_slots && item_state_slots[slot])
+		ret.icon_state = item_state_slots[slot]
+	else
+		ret.icon_state = icon_state
 	return ret
 
 /obj/item/clothing/head/attack_self(mob/user)

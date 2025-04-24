@@ -5,7 +5,7 @@
 	name = "Door"
 	desc = "It opens and closes."
 	icon = 'icons/obj/doors/doorint.dmi'
-	icon_state = "door1"
+	icon_state = "door_closed"
 	anchored = 1
 	opacity = 1
 	density = 1
