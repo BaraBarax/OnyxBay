@@ -1,0 +1,439 @@
+"ai" = (/obj/effect/floor_decal/siding/wood{dir = 4},/turf/simulated/floor/trim/wood,/area/arcturia)
+"aq" = (/obj/structure/closet/cabinet,/obj/item/toy/banbanana,/obj/item/clothing/head/kitty,/obj/item/clothing/head/rabbitears,/turf/simulated/floor/trim/wood,/area/arcturia)
+"au" = (/obj/structure/flora/pottedplant/drooping,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"aH" = (/obj/structure/stairs/west,/turf/simulated/floor/misc/concrete,/area/arcturia)
+"aK" = (/obj/structure/flora/pottedplant/large,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"bc" = (/turf/simulated/floor/misc/concrete,/area/arcturia)
+"bd" = (/turf/simulated/floor/natural/sand/gray,/area/arcturia)
+"bi" = (/obj/structure/bed/couch/corner/purple,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"bB" = (/turf/simulated/floor/tiled/brown,/area/arcturia)
+"bC" = (/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"bW" = (/obj/structure/window_frame/reinforced,/obj/machinery/floor_light/prebuilt,/obj/machinery/light/small{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"cg" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"cs" = (/obj/item/newspaper,/obj/structure/table/woodentable,/turf/simulated/floor/trim/lino,/area/arcturia)
+"ct" = (/obj/effect/floor_decal/siding/wood/corner{dir = 8},/turf/simulated/floor/trim/wood,/area/arcturia)
+"cI" = (/obj/machinery/power/apc/high{pixel_y = -24},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"cU" = (/obj/structure/flora/pottedplant/flowerbushred,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"do" = (/obj/structure/bed/pew/pewchapel/right{dir = 8},/turf/simulated/floor/natural/jungle,/area/arcturia)
+"dA" = (/obj/structure/flora/tree/green/tree3,/obj/effect/firefly,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"dN" = (/obj/structure/railing/steel{dir = 4},/turf/simulated/floor/tiled/dark,/area/arcturia)
+"dZ" = (/obj/structure/flora/tree/green/tree6,/obj/structure/flora/ausbushes/sparsegrass,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"et" = (/obj/machinery/light/spot,/turf/simulated/floor/misc/concrete,/area/arcturia)
+"fb" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/trim/wood,/area/arcturia)
+"fc" = (/obj/structure/flora/pottedplant/tall,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"fr" = (/obj/machinery/door/airlock{locked = 1; icon_state = "door_locked"},/turf/simulated/floor/misc/concrete,/area/arcturia)
+"fD" = (/turf/simulated/floor/natural/frozenground/snow,/area/arcturia)
+"fE" = (/turf/simulated/floor/natural/jungle,/area/arcturia)
+"fX" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 8},/obj/structure/closet/secure_closet/freezer/kitchen/mining,/turf/simulated/floor/tiled,/area/arcturia)
+"gn" = (/obj/structure/railing/steel{dir = 8},/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"gJ" = (/obj/structure/flora/jungleplants/glowingflower/yellow,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"gK" = (/obj/machinery/door/blast/shutters{dir = 2},/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"gT" = (/obj/structure/table/woodentable,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/trim/carpet/orange,/area/arcturia)
+"hh" = (/turf/simulated/floor/trim/carpet/oldred,/area/arcturia)
+"hk" = (/turf/simulated/floor/trim/carpet/orange,/area/arcturia)
+"hl" = (/obj/structure/flora/tree/green/small/tree6,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"hm" = (/obj/effect/floor_decal/siding/darkwood{dir = 1},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"hu" = (/obj/structure/flora/pottedplant/dead,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"hy" = (/obj/structure/flora/pottedplant/tropicaltree,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"hB" = (/obj/item/clothing/head/hairflower,/turf/simulated/floor/trim/wood,/area/arcturia)
+"hD" = (/obj/structure/flora/tree/green/small/tree3,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"hG" = (/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/jungleplants/glowingflower/purple,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"hK" = (/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/obj/structure/table/standard,/obj/item/trash/dish/plate,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"hS" = (/obj/structure/flora/tree/green/small/tree4,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"hW" = (/obj/structure/flora/pottedplant/bamboo,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"il" = (/obj/effect/floor_decal/siding/darkwood{dir = 4},/obj/structure/flora/pottedplant/shoot,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"iD" = (/obj/structure/flora/tree/green/tree4,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"iQ" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/obj/structure/table/standard,/obj/item/storage/laundry_basket,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"jd" = (/obj/effect/floor_decal/spline/plain/grey{dir = 4},/turf/simulated/floor/trim/lino,/area/arcturia)
+"jt" = (/obj/structure/table/woodentable,/obj/item/newspaper,/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"jP" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/obj/structure/toilet{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"kb" = (/obj/structure/flora/tree/green/small/tree5,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"kc" = (/obj/structure/flora/pottedplant/flower,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"ks" = (/obj/effect/floor_decal/siding/wood{dir = 1},/turf/simulated/floor/trim/wood,/area/arcturia)
+"kt" = (/obj/structure/flora/pottedplant/sticky,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"kD" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 8},/turf/simulated/floor/tiled,/area/arcturia)
+"kV" = (/obj/effect/floor_decal/siding/darkwood{dir = 8},/obj/structure/coatrack,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"lo" = (/obj/structure/flora/pottedplant/pink,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"lr" = (/obj/effect/floor_decal/siding/wood,/turf/simulated/floor/trim/wood,/area/arcturia)
+"lw" = (/obj/structure/flora/tree/green/tree6,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"lx" = (/obj/structure/table/woodentable,/obj/item/modular_computer/laptop/preset/custom_loadout/advanced,/turf/simulated/floor/trim/wood,/area/arcturia)
+"lA" = (/obj/effect/floor_decal/siding/darkwood{dir = 8},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"lK" = (/obj/structure/closet/cabinet,/turf/simulated/floor/trim/carpet/oldred,/area/arcturia)
+"lN" = (/obj/machinery/door/airlock/external/bolted,/turf/simulated/floor/plating,/area/arcturia)
+"lZ" = (/obj/structure/flora/jungleplants/glowingflower/blue,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"mc" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"mi" = (/obj/structure/flora/tree/green/tree5,/obj/structure/flora/ausbushes/sparsegrass,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"mr" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 10},/obj/structure/closet/crate/bin,/turf/simulated/floor/tiled,/area/arcturia)
+"mI" = (/obj/effect/floor_decal/corner/white/full,/obj/structure/curtain/open/shower,/obj/machinery/shower{dir = 8},/turf/simulated/floor/tiled,/area/arcturia)
+"mO" = (/obj/effect/floor_decal/spline/plain/grey{dir = 1},/turf/simulated/floor/trim/lino,/area/arcturia)
+"mW" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/dark/rough,/area/arcturia)
+"ne" = (/obj/effect/firefly,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"nf" = (/obj/item/clothing/head/hairflower/pink,/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/trim/wood,/area/arcturia)
+"nu" = (/obj/structure/window_frame/reinforced,/obj/machinery/floor_light/prebuilt,/obj/machinery/light/small{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/plating,/area/arcturia)
+"nG" = (/obj/structure/bed/pew/pewchapel/left{dir = 1; icon_state = "chair_pewchapel_left_over"},/turf/simulated/floor/natural/jungle,/area/arcturia)
+"nL" = (/obj/effect/floor_decal/siding/darkwood{dir = 10},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"nT" = (/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"nX" = (/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"ov" = (/turf/simulated/floor/tiled,/area/arcturia)
+"oE" = (/obj/structure/flora/pottedplant/minitree,/obj/effect/floor_decal/siding/wood{dir = 6},/turf/simulated/floor/trim/wood,/area/arcturia)
+"oU" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/obj/machinery/washing_machine,/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"pi" = (/obj/effect/floor_decal/siding/darkwood,/obj/machinery/light/spot,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"px" = (/obj/structure/railing/steel,/obj/structure/railing/steel{dir = 1},/turf/simulated/floor/misc/concrete,/area/arcturia)
+"pI" = (/obj/effect/floor_decal/spline/plain/grey{dir = 10},/obj/structure/bed/couch/left/brown{dir = 4},/turf/simulated/floor/trim/lino,/area/arcturia)
+"pS" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 5},/obj/structure/table/standard,/obj/machinery/microwave{pixel_y = 6},/turf/simulated/floor/tiled,/area/arcturia)
+"pT" = (/obj/structure/flora/pottedplant/faketree,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"qa" = (/obj/structure/railing/steel,/turf/simulated/open,/area/arcturia)
+"qb" = (/obj/effect/floor_decal/spline/plain/grey,/obj/structure/table/woodentable,/obj/item/plant_pot/smallcactus,/turf/simulated/floor/trim/lino,/area/arcturia)
+"qF" = (/obj/effect/floor_decal/spline/plain/grey,/turf/simulated/floor/trim/lino,/area/arcturia)
+"qG" = (/obj/structure/bed/pew/pewchapel/right{dir = 1; icon_state = "chair_pewchapel_right_over"},/turf/simulated/floor/natural/jungle,/area/arcturia)
+"qI" = (/obj/effect/floor_decal/siding/darkwood{dir = 9},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"qX" = (/obj/structure/railing/steel{dir = 1},/turf/simulated/floor/misc/concrete,/area/arcturia)
+"qZ" = (/obj/effect/floor_decal/siding/darkwood{dir = 6},/obj/structure/flora/pottedplant/drooping,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"rm" = (/turf/simulated/floor/plating,/area/arcturia)
+"ry" = (/obj/structure/bed/couch/middle/blue,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/trim/carpet/blue2,/area/arcturia)
+"rD" = (/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"sm" = (/obj/effect/floor_decal/siding/darkwood{dir = 4},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"sD" = (/obj/structure/window_frame/indestructible/hull,/turf/simulated/floor/plating,/area/arcturia)
+"sG" = (/obj/structure/table/woodentable,/obj/structure/flora/pottedplant/flower,/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"sI" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp/brown,/turf/simulated/floor/trim/wood,/area/arcturia)
+"sM" = (/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"tj" = (/obj/structure/railing/steel,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"tk" = (/obj/item/toy/plushie/spider,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/trim/carpet/blue,/area/arcturia)
+"tt" = (/obj/structure/flora/ausbushes/sparsegrass,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"tE" = (/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"tL" = (/obj/structure/flora/ausbushes/sparsegrass,/obj/effect/firefly,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"tM" = (/obj/structure/table/standard,/obj/item/newspaper,/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"tN" = (/obj/structure/flora/pottedplant/minitree,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"ug" = (/obj/structure/table/woodentable,/obj/item/plant_pot/smallbush,/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"uw" = (/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"uB" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 4},/obj/structure/table/standard,/obj/item/storage/lunchbox/nt/filled,/turf/simulated/floor/tiled,/area/arcturia)
+"uD" = (/obj/structure/flora/pottedplant/unusual,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"vE" = (/obj/effect/floor_decal/siding/darkwood,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"vR" = (/obj/structure/window_frame/reinforced,/obj/machinery/floor_light/prebuilt,/obj/machinery/light/small{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/natural/jungle,/area/arcturia)
+"wd" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/misc/concrete,/area/arcturia)
+"wg" = (/obj/structure/closet/secure_closet/freezer/fridge,/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"wt" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/obj/structure/toilet,/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"wM" = (/turf/unsimulated/mineral,/area/arcturia)
+"xH" = (/obj/structure/table/woodentable,/turf/simulated/floor/trim/carpet/blue2,/area/arcturia)
+"xX" = (/obj/structure/bed/pew/pewchapel/left,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"yd" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/obj/effect/floor_decal/spline/fancy,/obj/structure/sink{dir = 8; pixel_x = -11},/obj/structure/mirror{pixel_x = -28},/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"yj" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/arcturia)
+"yl" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 6},/obj/structure/table/standard,/obj/item/plant_pot/stoutbush,/obj/item/reagent_containers/vessel/mug/NT,/turf/simulated/floor/tiled,/area/arcturia)
+"yJ" = (/obj/effect/floor_decal/siding/darkwood{dir = 8},/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"zi" = (/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"zk" = (/obj/structure/bed/pew/pewchapel/right{dir = 4},/turf/simulated/floor/natural/jungle,/area/arcturia)
+"zw" = (/obj/structure/flora/tree/green,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"zD" = (/obj/structure/bed/couch/left/purple{dir = 4},/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"zI" = (/obj/structure/curtain/open/bed,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"zL" = (/obj/effect/floor_decal/siding/darkwood{dir = 6},/obj/structure/table/woodentable,/obj/item/paper_bin{pixel_y = 7},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"zM" = (/obj/structure/railing/steel{dir = 4},/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"zN" = (/obj/structure/flora/ausbushes/sparsegrass,/obj/structure/flora/ausbushes/sparsegrass,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"zT" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 9},/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled,/area/arcturia)
+"zU" = (/obj/structure/flora/pottedplant/subterranean,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Ae" = (/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/misc/concrete,/area/arcturia)
+"Ai" = (/obj/structure/closet/secure_closet/freezer/kitchen/mining,/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/brown,/area/arcturia)
+"Aj" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"Ak" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 4},/obj/structure/table/standard,/obj/structure/flora/pottedplant/small{pixel_y = 10},/turf/simulated/floor/tiled,/area/arcturia)
+"AJ" = (/obj/item/trash/candy,/turf/simulated/floor/trim/carpet/purple,/area/arcturia)
+"Bb" = (/obj/effect/floor_decal/stairs{dir = 8},/turf/simulated/floor/tiled,/area/arcturia)
+"Be" = (/obj/structure/flora/pottedplant/flowerbushblue,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Bi" = (/obj/structure/flora/tree/green/small/tree2,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Bv" = (/obj/structure/flora/pottedplant/thinbush,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"BC" = (/turf/simulated/floor/trim/carpet/purple,/area/arcturia)
+"BQ" = (/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled,/area/arcturia)
+"BV" = (/obj/structure/bed/couch/right/purple,/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"Cd" = (/obj/structure/bed/padded,/obj/item/bedsheet/runtime,/turf/simulated/floor/trim/carpet/orange,/area/arcturia)
+"Cy" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp/brown,/turf/simulated/floor/trim/carpet/orange,/area/arcturia)
+"CL" = (/obj/structure/table/woodentable,/obj/item/trash/chips,/obj/item/material/ashtray/plastic,/turf/simulated/floor/trim/wood,/area/arcturia)
+"CO" = (/obj/structure/bed/chair/office/light,/turf/simulated/floor/trim/carpet/orange,/area/arcturia)
+"Dk" = (/obj/structure/window_frame/relectric/rglass,/obj/structure/curtain/open/bed,/turf/simulated/floor/tiled/dark/rough,/area/arcturia)
+"Dr" = (/obj/structure/flora/pottedplant/eye,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Dt" = (/obj/structure/railing/steel,/turf/simulated/floor/tiled/dark,/area/arcturia)
+"DH" = (/obj/structure/window_frame/relectric/rglass,/obj/structure/curtain/open/bed{opacity = 1; icon_state = "closed"},/turf/simulated/floor/tiled/dark/rough,/area/arcturia)
+"DQ" = (/obj/structure/bed/pew/pewchapel/right,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"DV" = (/obj/structure/flora/ausbushes/fullgrass,/obj/effect/firefly,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"El" = (/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"Er" = (/obj/structure/flora/pottedplant/decorative,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Ex" = (/obj/structure/table/woodentable,/obj/item/modular_computer/laptop/preset/custom_loadout/advanced,/turf/simulated/floor/trim/carpet/orange,/area/arcturia)
+"Ez" = (/obj/structure/flora/pottedplant/overgrown,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"EA" = (/obj/structure/bed/wheel/luxury,/obj/item/bedsheet/hos,/turf/simulated/floor/trim/carpet/oldred,/area/arcturia)
+"EL" = (/obj/effect/floor_decal/siding/wood{dir = 10},/turf/simulated/floor/trim/wood,/area/arcturia)
+"EN" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 6},/obj/structure/closet/crate/bin,/obj/item/clothing/accessory/pin/pride/lesbian,/turf/simulated/floor/tiled,/area/arcturia)
+"EU" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 4},/obj/structure/table/standard,/obj/item/storage/lunchbox/filled,/turf/simulated/floor/tiled,/area/arcturia)
+"Ff" = (/obj/effect/landmark/joinlate/gate,/turf/simulated/floor/natural/sand/gray,/area/arcturia)
+"Fl" = (/obj/structure/flora/pottedplant/overgrownbush,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Fq" = (/obj/structure/flora/jungleplants/glowingflower/purple,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Fr" = (/obj/effect/floor_decal/siding/darkwood{dir = 6},/obj/structure/flora/pottedplant/bamboo,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"Fx" = (/obj/structure/flora/pottedplant/stoutbush,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"FK" = (/obj/structure/flora/pottedplant/shoot,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"FR" = (/obj/structure/flora/pottedplant/largeleaves,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"FU" = (/obj/machinery/washing_machine,/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/trim/lino,/area/arcturia)
+"Ga" = (/obj/effect/floor_decal/stairs{dir = 4},/turf/simulated/floor/tiled,/area/arcturia)
+"GA" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/obj/structure/sink{pixel_y = -11},/obj/structure/mirror{pixel_y = -28},/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"GL" = (/obj/structure/railing/steel{dir = 1},/obj/structure/lattice,/turf/simulated/open,/area/arcturia)
+"GP" = (/obj/structure/closet/crate/bin,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"GQ" = (/obj/structure/closet/cabinet,/obj/item/clothing/mask/redscarf,/turf/simulated/floor/trim/wood,/area/arcturia)
+"GR" = (/obj/structure/flora/pottedplant,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"GV" = (/obj/machinery/power/apc/high{pixel_y = -24},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/machinery/power/debug_items/infinite_generator,/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"GZ" = (/obj/machinery/shower{dir = 1},/obj/effect/floor_decal/corner/white/full,/obj/structure/curtain/open/shower,/turf/simulated/floor/tiled,/area/arcturia)
+"Hl" = (/turf/simulated/floor/trim/lino,/area/arcturia)
+"HA" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 8},/obj/structure/closet/secure_closet/freezer/kitchen/mining,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled,/area/arcturia)
+"HP" = (/obj/structure/flora/jungleplants/alienplant5,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Iv" = (/obj/effect/floor_decal/siding/wood{dir = 8},/turf/simulated/floor/trim/wood,/area/arcturia)
+"IP" = (/obj/structure/flora/pottedplant/fern,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"IS" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/turf/simulated/floor/tiled,/area/arcturia)
+"IV" = (/obj/effect/floor_decal/spline/plain/grey{dir = 9},/turf/simulated/floor/trim/lino,/area/arcturia)
+"Je" = (/obj/random/pottedplant,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"Jk" = (/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Jp" = (/obj/effect/floor_decal/spline/plain/grey{dir = 6},/turf/simulated/floor/trim/lino,/area/arcturia)
+"Jt" = (/obj/effect/floor_decal/spline/plain/grey{dir = 8},/turf/simulated/floor/trim/lino,/area/arcturia)
+"Jx" = (/obj/structure/railing/steel{dir = 1},/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"JM" = (/obj/structure/flora/pottedplant/tropical,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Kd" = (/obj/effect/floor_decal/siding/wood{dir = 5},/obj/structure/bookcase,/obj/item/book/wiki/virology,/obj/item/book/wiki/medicine,/obj/item/book/wiki/medical_glossary,/obj/item/book/wiki/medical_diagnostics_manual,/obj/item/book/wiki/chemistry,/turf/simulated/floor/trim/wood,/area/arcturia)
+"Kk" = (/turf/simulated/floor/trim/carpet/blue2,/area/arcturia)
+"KD" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 1},/obj/structure/sink/kitchen{pixel_y = 22},/turf/simulated/floor/tiled,/area/arcturia)
+"KN" = (/obj/structure/railing/steel{dir = 8},/turf/simulated/open,/area/arcturia)
+"Lm" = (/obj/structure/coatrack,/turf/simulated/floor/trim/lino,/area/arcturia)
+"Lr" = (/obj/structure/flora/pottedplant/largebush,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Lv" = (/obj/structure/bed/padded,/obj/item/bedsheet/hop,/turf/simulated/floor/trim/carpet/blue,/area/arcturia)
+"LA" = (/obj/structure/stairs/east,/turf/simulated/floor/misc/concrete,/area/arcturia)
+"LN" = (/obj/effect/floor_decal/siding/darkwood{dir = 10},/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp/brown,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"Mw" = (/obj/structure/closet/cabinet,/turf/simulated/floor/trim/wood,/area/arcturia)
+"MX" = (/obj/effect/floor_decal/siding/darkwood/end{dir = 1},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"MY" = (/obj/structure/table/steel,/turf/simulated/floor/tiled/dark,/area/arcturia)
+"MZ" = (/obj/structure/flora/pottedplant/aquatic,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Ni" = (/turf/unsimulated/floor/frozenground,/area/arcturia)
+"Nk" = (/obj/machinery/icecream_vat,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Nn" = (/obj/structure/bed/pew/pewchapel/left{dir = 8},/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Nw" = (/obj/structure/bed/couch/middle/purple{dir = 4},/turf/simulated/floor/trim/carpet/gpurple,/area/arcturia)
+"Nx" = (/obj/structure/flora/tree/green/small/tree1,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Od" = (/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"Oe" = (/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled,/area/arcturia)
+"Os" = (/obj/effect/landmark/map_data{height = 2},/turf/simulated/wall,/area/arcturia)
+"OU" = (/turf/simulated/floor/tiled/techfloor/maint,/area/arcturia)
+"PL" = (/obj/effect/floor_decal/siding/darkwood{dir = 4},/obj/effect/floor_decal/siding/darkwood/corner{dir = 1},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"PM" = (/obj/structure/flora/tree/green/tree2,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"PX" = (/obj/machinery/door/airlock{locked = 1; icon_state = "door_locked"},/turf/simulated/floor/tiled/dark/rough,/area/arcturia)
+"Qj" = (/obj/structure/flora/ausbushes/sparsegrass,/turf/simulated/floor/tiled/dark,/area/arcturia)
+"QA" = (/turf/simulated/floor/tiled/dark,/area/arcturia)
+"QB" = (/turf/simulated/floor/tiled/techfloor/grid,/area/arcturia)
+"QN" = (/obj/effect/floor_decal/siding/wood{dir = 8},/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/trim/wood,/area/arcturia)
+"QP" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy,/turf/simulated/floor/tiled,/area/arcturia)
+"QR" = (/obj/structure/bed/couch/left/blue,/turf/simulated/floor/trim/carpet/blue2,/area/arcturia)
+"Ru" = (/turf/simulated/wall/r_wall,/area/arcturia)
+"Rw" = (/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/obj/structure/closet/crate/bin,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"RG" = (/obj/structure/table/woodentable,/obj/structure/flora/pottedplant/smallcactus{pixel_y = 10},/turf/simulated/floor/trim/wood,/area/arcturia)
+"RM" = (/obj/structure/bed/couch/right/blue,/turf/simulated/floor/trim/carpet/blue2,/area/arcturia)
+"RN" = (/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Ss" = (/turf/simulated/wall,/area/arcturia)
+"Sz" = (/obj/structure/railing/steel,/turf/simulated/floor/misc/concrete,/area/arcturia)
+"SB" = (/turf/simulated/open,/area/arcturia)
+"SN" = (/obj/structure/railing/steel{dir = 8},/turf/simulated/floor/tiled/dark,/area/arcturia)
+"SU" = (/obj/structure/flora/tree/green/tree5,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Tb" = (/obj/effect/floor_decal/siding/darkwood,/obj/structure/table/woodentable,/obj/item/modular_computer/laptop/preset/custom_loadout/advanced,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"Td" = (/obj/structure/table/standard,/obj/machinery/microwave{pixel_y = 6},/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"Tf" = (/obj/effect/floor_decal/siding/darkwood{dir = 5},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"Th" = (/obj/structure/flora/tree/green/small/tree4,/obj/effect/firefly,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Tm" = (/obj/structure/flora/pottedplant/smelly,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"TG" = (/obj/structure/flora/ausbushes/lavendergrass,/obj/effect/firefly,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"TM" = (/obj/structure/table/woodentable,/obj/item/trash/cans/lemon_lime,/obj/item/flame/lighter/random,/turf/simulated/floor/trim/wood,/area/arcturia)
+"TV" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 10},/turf/simulated/floor/tiled,/area/arcturia)
+"Ud" = (/obj/structure/flora/pottedplant/ugly,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Ui" = (/obj/structure/flora/jungleplants/alienplant4,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Uj" = (/obj/effect/landmark/joinlate/cryo,/turf/simulated/floor/natural/sand/gray,/area/arcturia)
+"Ux" = (/obj/item/trash/cheesie,/turf/simulated/floor/trim/wood,/area/arcturia)
+"UG" = (/obj/machinery/door/blast/shutters{dir = 2},/turf/simulated/floor/tiled,/area/arcturia)
+"UI" = (/obj/effect/floor_decal/siding/darkwood{dir = 10},/obj/structure/table/woodentable,/obj/machinery/photocopier/faxmachine,/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"UN" = (/obj/effect/floor_decal/spline/plain/grey{dir = 8},/obj/structure/bed/couch/right/brown{dir = 4},/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/trim/lino,/area/arcturia)
+"UO" = (/obj/structure/table/woodentable,/obj/item/plant_pot/flower,/turf/simulated/floor/trim/carpet/blue2,/area/arcturia)
+"UT" = (/obj/structure/flora/pottedplant/subterranean,/obj/structure/flora/jungleplants/alienplant4{pixel_y = 7; pixel_x = -2},/turf/simulated/floor/trim/wood,/area/arcturia)
+"UZ" = (/obj/structure/railing/steel,/obj/structure/lattice,/turf/simulated/open,/area/arcturia)
+"Vc" = (/obj/effect/floor_decal/siding/darkwood{dir = 8},/obj/machinery/photocopier,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/trim/darkwood,/area/arcturia)
+"Vh" = (/obj/structure/window_frame/reinforced,/obj/machinery/floor_light/prebuilt,/obj/machinery/light/small,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/plating,/area/arcturia)
+"VN" = (/obj/structure/flora/pottedplant/autumn,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"VQ" = (/obj/structure/bed/padded,/obj/item/bedsheet/rd,/turf/simulated/floor/trim/carpet/purple,/area/arcturia)
+"VX" = (/turf/simulated/floor/plating/snowed,/area/arcturia)
+"VY" = (/obj/structure/railing/steel{dir = 1},/turf/simulated/floor/tiled/dark,/area/arcturia)
+"Wc" = (/obj/item/storage/laundry_basket,/obj/structure/table/standard,/turf/simulated/floor/trim/lino,/area/arcturia)
+"Wh" = (/obj/structure/flora/pottedplant/crystal,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Wm" = (/obj/structure/sink/kitchen{pixel_y = 22},/obj/effect/floor_decal/corner/mauve/diagonal{dir = 4},/obj/effect/floor_decal/corner/white/diagonal,/turf/simulated/floor/tiled/brown,/area/arcturia)
+"Wo" = (/obj/item/clothing/suit/ianshirt,/obj/machinery/light/spot,/turf/simulated/floor/trim/carpet/purple,/area/arcturia)
+"Wr" = (/turf/simulated/floor/trim/carpet/blue,/area/arcturia)
+"Ws" = (/obj/effect/floor_decal/spline/plain/grey{dir = 5},/turf/simulated/floor/trim/lino,/area/arcturia)
+"WH" = (/obj/effect/floor_decal/siding/wood{dir = 9},/turf/simulated/floor/trim/wood,/area/arcturia)
+"WQ" = (/obj/effect/landmark/joinlate/cyborg,/turf/simulated/floor/natural/sand/gray,/area/arcturia)
+"Xb" = (/obj/structure/flora/pottedplant/small,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"Xr" = (/obj/structure/window_frame/indestructible/grille,/turf/simulated/floor/plating,/area/arcturia)
+"XD" = (/obj/structure/flora/pottedplant/orientaltree,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"XQ" = (/obj/structure/bed/pew/pewchapel/left{dir = 4},/turf/simulated/floor/natural/jungle,/area/arcturia)
+"XU" = (/obj/structure/flora/pottedplant/monkey,/turf/simulated/floor/natural/frozenground/cave,/area/arcturia)
+"XV" = (/obj/structure/flora/tree/green/tree2,/obj/structure/flora/ausbushes/sparsegrass,/turf/simulated/floor/natural/jungle,/area/arcturia)
+"Yk" = (/turf/simulated/floor/trim/wood,/area/arcturia)
+"Yp" = (/obj/effect/floor_decal/corner/white/diagonal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/effect/floor_decal/spline/fancy{dir = 1},/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled,/area/arcturia)
+"Ys" = (/obj/effect/floor_decal/corner/paleblue/diagonal_centre,/obj/effect/floor_decal/spline/fancy/corner{dir = 8},/turf/simulated/floor/tiled/freezer,/area/arcturia)
+"Yv" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/misc/concrete,/area/arcturia)
+"YF" = (/obj/structure/railing/steel{dir = 4},/turf/simulated/open,/area/arcturia)
+"YT" = (/obj/structure/railing/steel{dir = 1},/turf/simulated/open,/area/arcturia)
+"Zo" = (/obj/machinery/door/airlock,/turf/simulated/floor/misc/concrete,/area/arcturia)
+"ZI" = (/obj/effect/landmark/joinlate,/turf/simulated/floor/natural/sand/gray,/area/arcturia)
+"ZM" = (/obj/structure/flora/tree/green/pink/glowing,/obj/effect/landmark/joinlate/observer,/turf/simulated/floor/natural/sand/gray,/area/arcturia)
+
+(1,1,1) = {"
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsZoSsSsSsSsSsSsSsSsSsSsSsGLGLGLGLGLGLGLGLGLGLbWGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBRNsDsDfDfDfDNiSBSBSBSBSBSBSBSBNiNiNifDfDfDfDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsElElovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsElElovSsYkYkYkYkSsSBSBSBSBSBRNRNsDfDfDfDNiNiSBSBSBSBSBSBSBNiNiNiNifDfDfDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkDHSBSBSBSBSBSBRNsDfDfDfDNiSBSBSBSBSBSBSBSBSBSBNiNiNiNifDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsYkYkYkPXbcbcbcPXYkYkYkSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsYkYkYkPXbcbcbcPXYkYkYkSsYkYkYkYkSsSBSBSBSBSBSBRNsDsDfDfDfDNiNiNiSBSBSBSBSBSBSBNiSBNiNiNifDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsYkYkYkSsbcbcbcSsYkYkYkSsSsSsmWSsSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsYkYkYkSsbcbcbcSsYkYkYkSsSsSsmWSsSsqaSBSBSBSBSBRNRNsDfDfDfDfDNiNiNiSBSBSBSBSBSBSBSBNiNiNiNifDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkSsbBKNSBSBSBSBRNRNsDfDfDfDfDNiNiNiNiSBSBSBSBSBSBSBSBNiNiNiNifDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBRNRNsDsDfDfDfDfDNiSBSBSBSBSBSBSBSBSBSBNiNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkmWbBKNSBSBSBSBRNRNRNsDfDfDfDfDNiNiSBSBSBSBSBSBSBSBSBSBNiSBSBNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBRNRNsDfDfDfDfDNiNiNiNiSBSBSBSBSBSBSBSBNiNiSBSBNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkSsbBKNSBSBSBSBSBRNRNsDsDfDfDfDNiNiNiNiNiSBSBSBSBSBSBSBSBNiSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsovovovSsbcbcbcSsovovovSsSsSsmWSsSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsovovovSsbcbcbcSsovovovSsSsSsmWSsSsYTSBSBSBSBSBSBRNRNRNsDfDfDfDNiNiNiNiSBSBSBSBSBSBSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBRNRNRNsDfDfDfDNiNiNiNiNiSBSBSBSBSBSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkDHSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDNiNiNiNiSBSBNiNiSBSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBRNRNRNRNsDsDfDfDfDNiNiNiNiNiNiNiSBSBSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDNiNiNiNiNiNiSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBqaSsHlHlHlHlSsovElElSsbcbcbcSsElElovSsHlHlHlHlSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsHlHlHlHlSsovElElSsbcbcbcSsElElovSsHlHlHlHlSsqaSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDNiNiNiSBSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFJeDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlDHbBKNSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDNiNiNiSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsHlHlHlHlzIbBbBbBPXbcbcbcPXbBbBbBzIHlHlHlHlSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsHlHlHlHlzIbBbBbBPXbcbcbcPXbBbBbBzIHlHlHlHlSsbBKNSBSBSBSBRNRNRNRNRNsDsDfDfDfDfDfDfDfDfDfDNiNiNiNiNiNiSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBmWHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlmWbBKNSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDNiNiNiNiNiSBSBNiSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsbBKNSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNiNiNiNiNiSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFJeDHbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBDHbBKNSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNiNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBYTSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsYTSBSBSBSBSBSBSBRNRNRNRNsDsDfDfDfDfDfDfDfDfDfDNiNiNiNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsSBSBSBSBSBSBSBRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHSBSBSBSBSBSBSBRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNBvRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsOdOdOdmWOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsOdOdOdmWOdOdOdOdSsSBSBSBSBSBSBSBRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNzURNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsqaSBSBSBSBSBSBRNRNRNRNRNRNsDsDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNFxRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFJeSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsbBKNSBSBSBSBSBSBRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNkcRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsOdOdOdOdDHbBKNSBSBSBSBSBSBRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNEzVNMZDrRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdmWbBKNSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNauhWpTXDBeRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNFKhuFRktcURNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdmWOdOdOdPXbcbcbcPXOdOdOdmWOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdmWOdOdOdPXbcbcbcPXOdOdOdmWOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBRNRNRNRNsDsDfDfDfDfDfDfDfDfDfDfDfDNiNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNuDIPFlTmtNRNnTuwrDcIuwrDnXRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsOdSsOdOdOdOdSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsOdSsOdOdOdOdSsYTSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDfDNiNiNi
+SsSsSsSsSsgKgKSsSsSsSsSsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNLrJMGRloWhXURNRNSsSsSsSsSsgKgKSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsovSsmWSsovovovovSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsovSsmWSsovovovovSsSBSBSBSBSBSBSBSBSBSBSBtjtjtjtjsDfDfDfDfDfDfDfDfDfDfDfDfDNiNiNi
+SsQADtDtQAovovQADtDtQASsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNXbfcaKhyErUdRNRNSsQADtDtQAovovQADtDtQASsSBSBSBSBSBSBSBSBSBSBDHovovovovSsElElElSsbcbcbcSsElElElSsovovovovDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHovovovovSsElElElSsbcbcbcSsElElElSsovovovovDHSBSBSBSBSBSBSBSBSBSBzMQADtDtQAsDfDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+SsdNSBSBSNovovdNSBSBSNSsSsSsSsSsSsSsSsSsSsSsSsUGUGUGSsSsSsSsSsSsSsSsSsSsSsSsdNSBSBSNovovdNSBSBSNSsSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsElElElSsovovovovSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsElElElSsovovovovSsSBSBSBSBSBSBSBSBSBSBzMdNSBSBSNsDfDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+nudNSBSBSNovovdNSBSBSNnuQAQAQAQAovovQAQAQAQAnuovovovnuQAQAQAQAovovQAQAQAQAnudNSBSBSNovovdNSBSBSNnuUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsUZUZUZUZUZUZUZUZUZUZnuUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsUZUZUZUZUZUZUZUZUZUZnudNSBSBSNsDsDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+ovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovSsSBSBSBbcYvbcbcbcbcbcbcbcbcbcbcbcYvbcbcLASsSsovovovovovovovovovovovovovovovovovovovovovSsSBSBSBbcYvbcbcbcbcbcbcbcbcbcbcbcYvbcbcLASsSsovovovovovovovovovovovovovovovovsDfDfDfDfDfDfDfDfDfDfDfDNiNiNi
+ovovovovovovovovovovovovovovovyjyjyjyjovovovovovovovovovovovyjyjyjyjovovovovovovovovovovovovovovovovovovyjyjyjyjovovovZoqXpxpxbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcpxpxSzZoovovovyjyjyjyjovovovovovovovyjyjyjyjovovovZoqXpxpxbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcpxpxSzZoovovovyjyjyjyjovovovovovovovovovsDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+ovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovSsSsaHbcbcetbcbcbcbcbcbcbcbcbcbcbcetbcSBSBSBSsovovovovovovovovovovovovovovovovovovovovovSsSsaHbcbcetbcbcbcbcbcbcbcbcbcbcbcetbcSBSBSBSsovovovovovovovovovovovovovovovovsDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+nudNSBSBSNovovdNSBSBSNnuQAQAQAQAovovQAQAQAQAnuovovovnuQAQAQAQAovovQAQAQAQAnudNSBSBSNovovdNSBSBSNnuGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsZoSsSsSsSsSsSsSsSsSsSsSsGLGLGLGLGLGLGLGLGLGLbWGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsGLGLGLGLGLGLGLGLGLGLnudNSBSBSNQAsDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+RNdNSBSBSNovovdNSBSBSNRNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNdNSBSBSNovovdNSBSBSNRNSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsoUiQwtSszTKDYppSSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsElElElSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBYFdNSBSBSNQAsDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+RNQAVYVYQAovovQAVYVYQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAVYVYQAovovQAVYVYQARNSBSBSBSBSBSBSBSBSBSBDHovovovovSsziGVbCSsbcbcbcSsydYsAjSsfXISISuBDkSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHovovovovSsElElElSsbcbcbcSsElElElSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBSBzMQAVYVYQAQAsDfDfDfDfDfDfDfDfDfDfDfDfDNiNi
+RNQAfEfEQAovovQAfEfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsGZSsmWSsmrQPQPylSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsovSsmWSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBRNJxJxJxJxJxsDsDfDfDfDfDfDfDfDfDfDfDfDNiNi
+RNQAfEfEQAovovQAttfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsMXSsqIhmhmTfSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsOdSsOdOdOdOdSsqaSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDNiNi
+RNQAttttQAovovQAttSUQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFJeSsOdOdOdOdmWOdOdOdPXbcbcbcmWqIhmPLmWlAOdOdsmSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdmWOdOdOdPXbcbcbcPXOdOdOdmWOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDfDNiNi
+RNQAttdZQAovovQAfEfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEfEQAovovQAfESUQARNSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsOdOdOdSsAebcwdSskVOdsmSslAOdOdsmDkbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNi
+RNQAttttQAovovQAfEfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEmiQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsLNpiFrSsbiBVtEsmmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdmWbBKNSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNi
+RNQAfEfEQAovovQAfEttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAlwttQAovovQAlwfEQARNSBSBSBSBSBSBSBSBYFJeDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsNwsGtEsmDkbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsOdOdOdOdDHbBKNSBSBSBSBSBSBRNSBRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNi
+RNQAfEXVQAovovQASUttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdSsOdOdOdSsbcbcbcSslKhhEASsNwjttEsmSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsbBKNSBSBSBSBSBSBRNSBRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNi
+RNQAfEttQAovovQAfEfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAttfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdOdOdSsbcbcbcSshhhhhhSszDugtEsmSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsYTSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDfDfDNiNiNi
+RNQAfEttQAovovQAfEPMQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAttfEQAovovQAttttQARNSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsVcOdsmmWlAOdOdsmSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsOdOdOdmWOdOdOdOdSsSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNsDsDfDfDfDfDfDfDfDfDfDNiNiNi
+RNQAfEfEQAovovQAPMfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfESUQAovovQAttttQARNSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsAebcwdSsyJcgilSslAOdOdsmDkSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDNiNiNiNi
+RNQAPMfEQAovovQAttfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEfEQAovovQAmittQARNSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsUITbzLSsnLvEpiqZSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDNiNiNiNi
+RNQAfEfEQAovovQAttfEQARNRNRNRNRNRNRNRNRNRNRNVhovovovVhRNRNRNRNRNRNRNRNRNRNRNQAttttQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDNiNiNiNi
+RNQAttfEQAovovQAttfEQAQAQAQAQAQAQAQAQAQAQADtDtovovovDtDtQAQAQAQAQAQAQAQAQAQAQAttmiQAovovQAfEttQARNSBSBSBSBSBSBSBSBSBqaSsbBbBbBbBSsYkYkYkSsbcbcbcSsCyExCdSswgWmsMTdSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsqaSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDNiNiNiNiNi
+RNQAttfEQAovovQASUfEttttfESUfEttttfESUfEQASBSBovovovSBSBSNfEfEttttdZfEfESUfEfEttttQAovovQAfEttQARNSBSBSBSBSBSBSBSBYFbBDHbBbBbBbBSsYkYkYkSsbcbcbcSsgTCOhkSsAisMsMtMDkbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBDHbBKNSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDNiNiNiNiNi
+RNQAttfEQAovovQAfEfESUfEttttttttPMfEfEfEQASBSBovovovSBSBSNfESUfEfEfEPMfEttttmifEfEQAovovQAfEmiQARNSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsUTYkMwSsRwsMsMhKSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsbBKNSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDNiNiNiNi
+RNQAfEfEQAovovQAQAQAQAQAQAQAQAQAQAQAQAQAQAVYVYovovovVYVYQAQAQAQAQAQAQAQAQAQAQAQAQAQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBmWHlHlHlHlSsSsmWSsSsAebcwdSsSsmWSsSsIVmOmOWsmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlmWbBKNSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDfDNiNiNiNi
+RNQASUfEQAovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBSsHlHlHlHlzIbBbBbBPXbcbcbcmWbBbBbBzIJtHlHljdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsHlHlHlHlzIbBbBbBPXbcbcbcPXbBbBbBzIHlHlHlHlSsbBKNSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDfDfDfDfDfDfDfDNiNiNiNiNi
+RNQAfEfEQAovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovQAfESUQARNSBSBSBSBSBSBSBSBYFbBDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsUNcsHljdDkbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlDHbBKNSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDfDfDfDfDNiNiNiNiNiNiNiNi
+RNQAttXVQAovovQAQAQAQAQAQAQAQAQAQAQAQAQAQADtDtovovovDtDtQAQAQAQAQAQAQAQAQAQAQAQAQAQAovovQAttfEQARNSBSBSBSBSBSBSBSBSBYTSsHlHlHlHlSsovElElSsbcbcbcSsjPGAmISspIqbqFJpSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsHlHlHlHlSsovElElSsbcbcbcSsElElovSsHlHlHlHlSsYTSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDfDfDNiNiNiNiNiNiNiNiNi
+RNQAttttQAovovQAfEfEfEfEfEfEfEttmittfEfEdNSBSBovovovSBSBSNfEfEfEfEfEfEfEfEfEfEfEfEQAovovQAttfEQARNSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDfDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttttQAovovQAfEttfEfEdZttfEttttttfEfEdNSBSBovovovSBSBSNfEPMfEfEfEfEfEfEfEfEfEPMQAovovQAttfEQARNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSszTKDpSSssIlxtkLvSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAfEttfEfEttttfElwfEfEQAQAQAVYVYovovovVYVYQAQAQAfEfEfESUfEfEfESUfEfEQAovovQAmifEQARNSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsAebcwdSsHAISEUSsRGfbWrWrDkSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAfEttfEfEfEfEfEfEQAQAQAfEfEttVhOeOeOeVhttmcTGQAQAQAfEfEfElwfEfEfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSskDISAkSsaqYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfESUQAovovQAfEttttmifEfEQAQAQAneFqhGJkzwttovovovFqPMJkJklZlZQAQAQAfEfEfEfEfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsovovovSsbcbcbcSsTVQPENSsSsSsmWSsSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsovovovSsbcbcbcSsovovovSsSsSsmWSsSsqaSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttmiQAovovQAfEfEttttfEQAQAFqttUiJkJkFqttHPovovovmcttgJgJUiJknefEQAQAfEfEfEfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFJeSsYkYkYkYkYkYkYkYkSsbcbcbcSsWHksksQRryRMksKdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkSsbBKNSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttttQAovovQAfEmittfEQAQAJkJkFqttttfEovovovovovovovovovgJlZJkfElZlZQAQAfEfEfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsIvYkYkxHxHUOYkaiDkbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttttQAovovQAfEfEfEfEQAfEJkJkJklZovovovJkGPovyjovGPfEovovovfEgJJklZmcQAfEfESUfEQAovovQASUttQARNSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsQNYkYkKkKkKkYkaimWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkmWbBKNSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEfEQAovovQAfEfEfEQAQAHPlZJkneovovlZgJttzkovyjovNnJkJkttovovgJJkJkmcQAQAfEfEfEQAovovQAfEttQARNSBSBSBSBSBSBSBSBYFJeDHYkYkYkYkYkYkYkYkSsAebcwdSsELlrlrlrctYkYkaiDkbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEfEQAovovQAttttfEQAmcttJkfEovovovUiJkkbXQovyjovdohlFqgJovovovfEHPttlZQAfElwfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsELlrlroESsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkSsbBKNSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEPMQAovovQAttttQAQAmcFqmcovovovovovgJFqVhovyjovVhlZlZovovovovovttttlZQAQAfEfEQAovovQAfESUQARNSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsHlHlHlSsbcbcbcSsLmHlWcSsSsSsmWSsSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsHlHlHlSsbcbcbcSsHlHlHlSsSsSsmWSsSsYTSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEfEQAovovQAttXVQAttlZJkmcovmcmcovovovovovovovovovovovovovlZHPovttgJJkfEQAfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsHlHlHlPXbcbcbcmWHlHlFUSsCLlxYkhBSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsHlHlHlPXbcbcbcPXHlHlHlSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBRNRNtjtjtjtjRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQADtDtQAovovQADtDtQAttJkJkovovttJkgJovovovmcfEBQfEneovovovFqfEJkovovgJttJkQADtDtQAovovQADtDtQARNSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsTMnfBCAJDkSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBzMQADtDtQAgnRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNdNSBSBSNovovdNSBSBSNlZdAgJovlZJkNxgJovovmcJkfEbdfEgJgJovovFqBigJneovfESUlZdNSBSBSNovovdNSBSBSNRNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsjPGAmISsGQUxWoVQSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsElElovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBzMdNSBSBSNgnRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+nudNSBSBSNovovdNSBSBSNnuJkgJovGPxXDQvRovlZDVJkbdbdbdJklZfEovnuxXDQGPovttttnudNSBSBSNovovdNSBSBSNnuUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsZoSsSsSsSsSsSsSsSsSsSsSsUZUZUZUZUZUZUZUZUZUZnuUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsUZUZUZUZUZUZUZUZUZUZnudNSBSBSNgnRNRuRuRuRuRuNiNiNiNiNiNiNiNiNi
+ovovovovovovovovovovovBbovovovovovovovovfEfEbdbdWQbdbdNkttovovovovovovovovGaovovovovovovovovovovovovovovovovovovovovovSsSBSBSBbcYvbcbcbcbcbcbcbcbcbcbcbcYvbcbcLASsSsovovovovovovovovovovovovovovovovovovovovovSsSBSBSBbcYvbcbcbcbcbcbcbcbcbcbcbcYvbcbcLASsSsovovovovovovovovovovovovovovovRuRuRuQBQBQBRuRuRuVXVXVXVXVXVXVX
+ovovovovovovovovovovovBbovovovyjyjyjyjovGabdbdFfZMUjbdbdBbovyjyjyjyjovovovGaovovovovovovovovovovovovovovyjyjyjyjovovovZoqXpxpxbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcpxpxSzZoovovovyjyjyjyjovovovovovovovyjyjyjyjovovovZoqXpxpxbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcpxpxSzZoovovovyjyjyjyjovovovovovovovovlNrmlNOUOUOUlNrmlNVXVXVXVXVXVXVX
+ovovovovovovovovovovovBbovovovovovovovovttttbdbdZIbdbdtLttovovovovovovovovGaovovovovovovovovovovovovovovovovovovovovovSsSsaHbcbcetbcbcbcbcbcbcbcbcbcbcbcetbcSBSBSBSsovovovovovovovovovovovovovovovovovovovovovSsSsaHbcbcetbcbcbcbcbcbcbcbcbcbcbcetbcSBSBSBSsovovovovovovovovovovovovovovovRuRuRuQBQBQBRuRuRuVXVXVXVXVXVXVX
+nudNSBSBSNovovdNSBSBSNnufEFqovGPnGqGvRovmcJkgJbdbdbdJkJkfEovnunGqGGPovttttnudNSBSBSNovovdNSBSBSNnuGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsGLGLGLGLGLGLGLGLGLGLbWGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsGLGLGLGLGLGLGLGLGLGLnudNSBSBSNQAQARuXrXrXrRuNiNiNiNiNiNiNiNiNi
+RNdNSBSBSNovovdNSBSBSNJkiDUiovmcJkBilZovovmcttfEbdttUilZovovFqThmcFqovttlwlZdNSBSBSNovovdNSBSBSNRNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsElElovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsElElovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBYFdNSBSBSNQAQARuMYMYMYRuNiNiNiNiNiNiNiNiNi
+RNQAVYVYQAovovQAVYVYQAttJkFqovovmcJklZovovovTGttOefEttovovovmcttmcovovttJklZQAVYVYQAovovQAVYVYQARNSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBYFQAVYVYQAQAQAfrQAQAQARuNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAfEfEQAneJkJkmcovgJmcovovovovovovovovovovovovovttmcovttgJJkfEQAfEfEQAovovQAPMfEQARNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsYkYkYkPXbcbcbcPXYkYkYkSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsYkYkYkPXbcbcbcPXYkYkYkSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBJxJxJxJxJxJxRuRuRuRuRuNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAttmiQAQAmcJkJkovovovovovmcttVhovyjovVhttttovovovovovgJttneQAQAfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsYkYkYkSsbcbcbcSsYkYkYkSsSsSsmWSsSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsYkYkYkSsbcbcbcSsYkYkYkSsSsSsmWSsSsqaSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAttttfEQAmcttttmcovovovFqFqhSzkovyjovNnhDttfEovovovgJJkJkfEQAfESUfEQAovovQAttttQARNSBSBSBSBSBSBSBSBYFJeSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkSsJeKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEfEQAovovQAttttfEQAQAttgJJkfEovovttJkmcXQovyjovdolZFqFqovovttJkJkmcQAQAfElwfEQAovovQAttttQARNSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJeDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEttQAovovQAfEfEfEfEQAfEgJJkJkfEovovovfEGPovyjovGPJkovovovlZlZHPmcmcQAfEfEfEfEQAovovQAttttQARNSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkmWbBKNSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEttQAovovQAttttfEfEQAQAfEneJkmcmcfEovovovovovovovovovttJkttttttmcQAQAfEfEfEfEQAovovQAttttQARNSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEttQAovovQAttttfEfEfEQAQAfElZlZJkgJgJfEfEovovovttfElZJkUimcgJgJQAQAfEfEfEttfEQAovovQAfESUQARNSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJeSsYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQASUfEQAovovQAttttSUfEfEfEQAQAQAfEJkJkJkPMfEovovovttSUDVmcmcmcQAQAQAfEfEfEfEttfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsovovovSsbcbcbcSsovovovSsSsSsmWSsSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsovovovSsbcbcbcSsovovovSsSsSsmWSsSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAfEfEQAovovQAfEfEfEfEfEfEfEfEQAQAQAfElZfEVhBQBQBQVhttfEfEQAQAQAfEfEfEfElwfEfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAfEfEttttttttttfESUfEQAQAQADtDtovovovDtDtQAQAQAfEfEfEttttmifEfEfEfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAfElwttttmittttfEfEfEfEfEdNSBSBovovovSBSBSNfEfESUfEfEttttttfEfESUfEQAovovQAfEPMQARNSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDsDNiNiNiNiNiNiNiNiNiNiNi
+RNQAttfEQAovovQAfEfEfEfEfEfEfEfEttfEfEfEdNSBSBovovovSBSBSNfEfEfEfEPMfEfEfEfEfEfEfEQAovovQAttfEQARNSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBRNSBRNRNRNRNRNsDNiNiNiNiNiNiNiNiNiNiNiNi
+RNQAlwfEQAovovQAQAQAQAQAQAQAQAQAQAQAQAQAQAVYVYovovovVYVYQAQAQAQAQAQAQAQAQAQAQAQAQAQAovovQAttfEQARNSBSBSBSBSBSBSBSBSBqaSsHlHlHlHlSsovElElSsbcbcbcSsElElovSsHlHlHlHlSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsHlHlHlHlSsovElElSsbcbcbcSsElElovSsHlHlHlHlSsqaSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNsDNiNiNiNiNiNiNifDNifDfDNi
+RNQAfEfEQAovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovQAttttQARNSBSBSBSBSBSBSBSBYFbBDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlDHJeKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlDHbBKNSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNRNsDNiNiNiNiNifDfDfDfDfDfDNi
+RNQAfEfEQAovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovQAfEttQARNSBSBSBSBSBSBSBSBYFbBSsHlHlHlHlzIbBbBbBPXbcbcbcPXbBbBbBzIHlHlHlHlSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsHlHlHlHlzIbBbBbBPXbcbcbcPXbBbBbBzIHlHlHlHlSsbBKNSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNiNiNifDfDfDfDfDfDfD
+RNQAttfEQAovovQAQAQAQAQAQAQAQAQAQAQAQAQAQADtDtovovovDtDtQAQAQAQAQAQAQAQAQAQAQAQAQAQAovovQAfEttQARNSBSBSBSBSBSBSBSBYFbBmWHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJemWHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlmWbBKNSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNiNiNifDfDfDfDfDfDfD
+RNQAttfEQAovovQAfEfEfElwfEfEttttfEfEfEfEdNSBSBovovovSBSBSNfEfEfEmifEfElwfEfEfEttzNQAovovQAfESUQARNSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsbBKNSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNiNifDfDfDfDfDfDfDfD
+RNQASUfEQAovovQAfEfEfEfEfEfEfEfESUfEttfEdNSBSBovovovSBSBSNPMfEfEfEttttttttfElwfEttQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFJeDHbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBDHbBKNSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNiNiNifDfDfDfDfDfDfDfDfD
+RNQAttttQAovovQAfEfEQjQjQAQAQAQAQAQAQAQAQAVYVYovovovVYVYQAQAQAQAQAQAQAQAQAQAQAfEzNQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBYTSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsYTSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNiNiNifDfDfDfDfDfDfDfDfD
+RNQAttttQAovovQAttfEQARNRNRNRNRNRNRNRNRNRNRNVhovovovVhRNRNRNRNRNRNRNRNRNRNRNQAPMttQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNiNiNifDfDfDfDfDfDfDfDfD
+RNQAfEfEQAovovQAttfEQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEttQAovovQAPMfEQARNSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNifDfDfDfDfDfDfDfDfDfDfD
+RNQAfEfEQAovovQAfESUQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEttQAovovQAfEfEQARNSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNRNsDNifDfDfDfDfDfDfDfDfDfDfD
+RNQAttSUQAovovQAfEttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEttQAovovQAttttQARNSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsOdOdOdmWOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsOdOdOdmWOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNsDsDNifDfDfDfDfDfDfDfDfDfDfD
+RNQAttfEQAovovQAfEttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAPMttQAovovQAttttQARNSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsqaSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNsDNiNifDfDfDfDfDfDfDfDfDfDfD
+RNQAttfEQAovovQAttttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAttttQAovovQAttttQARNSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJeSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNsDNifDfDfDfDfDfDfDfDfDfDfDfD
+RNQAfEfEQAovovQAttttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAttfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNsDNifDfDfDfDfDfDfDfDfDfDfDfD
+RNQAfEttQAovovQAttttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAzNfEQAovovQAfEPMQARNSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBRNRNRNsDNifDfDfDfDfDfDfDfDfDfDfDNi
+RNQAfEfEQAovovQAttzNQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAttfEQAovovQAfEfEQARNSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNsDNifDfDfDfDfDfDfDfDfDfDNiNi
+RNQAfEfEQAovovQAfEttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAttfEQAovovQAttfEQARNSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdmWOdOdOdPXbcbcbcPXOdOdOdmWOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJeSsOdOdOdOdmWOdOdOdPXbcbcbcPXOdOdOdmWOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNiNifDfDfDfDfDfDfDfDfDNiNi
+RNQASUfEQAovovQAmittQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAfEfEQAovovQAttfEQARNSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsOdSsOdOdOdOdSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsOdSsOdOdOdOdSsYTSBSBSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDNifDfDfDfDfDfDfDfDfDNiNiNi
+RNQAfEfEQAovovQAttttQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQAPMfEQAovovQAfEPMQARNSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsovSsmWSsovovovovSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsovSsmWSsovovovovSsSBSBSBSBSBSBSBSBSBSBSBtjtjtjtjtjsDsDfDfDfDfDfDfDfDfDNiNiNiNiNi
+RNQADtDtQAovovQADtDtQARNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNQADtDtQAovovQADtDtQARNSBSBSBSBSBSBSBSBSBSBDHovovovovSsElElElSsbcbcbcSsElElElSsovovovovDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHovovovovSsElElElSsbcbcbcSsElElElSsovovovovDHSBSBSBSBSBSBSBSBSBSBYFQADtDtQAQAsDfDfDfDfDfDfDfDfDfDNiNiSBNiSB
+RNdNSBSBSNovovdNSBSBSNRNRNRNRNRNRNRNRNRNRNRNQAovovovQARNRNRNRNRNRNRNRNRNRNRNdNSBSBSNovovdNSBSBSNRNSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsElElElSsovovovovSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsElElElSsovovovovSsSBSBSBSBSBSBSBSBSBSBYFdNSBSBSNQAsDfDfDfDfDfDfDfDfDfDNiNiSBNiSB
+nudNSBSBSNovovdNSBSBSNnuQAQAQAQAovovQAQAQAQAnuovovovnuQAQAQAQAovovQAQAQAQAnudNSBSBSNovovdNSBSBSNnuUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsUZUZUZUZUZUZUZUZUZUZnuUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsUZUZUZUZUZUZUZUZUZUZnudNSBSBSNQAsDfDfDfDfDfDfDfDfDfDNiNiSBSBSB
+ovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovSsSBSBSBbcYvbcbcbcbcbcbcbcbcbcbcbcYvbcbcLASsSsovovovovovovovovovovovovovovovovovovovovovSsSBSBSBbcYvbcbcbcbcbcbcbcbcbcbcbcYvbcbcLASsSsovovovovovovovovovovovovovovovovsDfDfDfDfDfDfDfDfDNiNiNiNiSBSB
+ovovovovovovovovovovovovovovovyjyjyjyjovovovovovovovovovovovyjyjyjyjovovovovovovovovovovovovovovovovovovyjyjyjyjovovovZoqXpxpxbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcpxpxSzZoovovovyjyjyjyjovovovovovovovyjyjyjyjovovovZoqXpxpxbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcpxpxSzZoovovovyjyjyjyjovovovovovovovovovsDfDfDfDfDfDfDfDfDNiNiNiNiSBSB
+ovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovovSsSsaHbcbcetbcbcbcbcbcbcbcbcbcbcbcetbcSBSBSBSsovovovovovovovovovovovovovovovovovovovovovSsSsaHbcbcetbcbcbcbcbcbcbcbcbcbcbcetbcSBSBSBSsovovovovovovovovovovovovovovovovsDfDfDfDfDfDfDfDfDNiNiSBNiSBSB
+nudNSBSBSNovovdNSBSBSNnuQAQAQAQAovovQAQAQAQAnuovovovnuQAQAQAQAovovQAQAQAQAnudNSBSBSNovovdNSBSBSNnuGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsGLGLGLGLGLGLGLGLGLGLbWGLGLGLGLGLGLGLGLGLGLSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsGLGLGLGLGLGLGLGLGLGLnudNSBSBSNsDsDfDfDfDfDfDfDfDfDNiSBSBNiSBSB
+SsdNSBSBSNovovdNSBSBSNSsSsSsSsSsSsSsSsSsSsSsSsUGUGUGSsSsSsSsSsSsSsSsSsSsSsSsdNSBSBSNovovdNSBSBSNSsSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsElElElSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsElElElSsbcbcbcSsElElElSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBYFdNSBSBSNsDfDfDfDfDfDfDfDfDfDNiSBSBSBSBSB
+SsQAVYVYQAovovQAVYVYQASsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsQAVYVYQAovovQAVYVYQASsSBSBSBSBSBSBSBSBSBSBDHovovovovSsElElElSsbcbcbcSsElElElSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHovovovovSsElElElSsbcbcbcSsElElElSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBSBYFQAVYVYQAsDfDfDfDfDfDfDfDfDNiNiNiSBSBSBSB
+SsSsSsSsSsgKgKSsSsSsSsSsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSsSsSsSsgKgKSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsovSsmWSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsovovovovSsmWSsovSsbcbcbcSsovSsmWSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBJxJxJxJxsDfDfDfDfDfDfDfDfDNiNiNiSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsOdSsOdOdOdOdSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsOdOdOdOdSsOdSsSsSsbcbcbcSsSsSsOdSsOdOdOdOdSsqaSBSBSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDfDNiNiNiSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFJeSsOdOdOdOdmWOdOdOdPXbcbcbcPXOdOdOdmWOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdmWOdOdOdPXbcbcbcPXOdOdOdmWOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBRNRNRNRNsDsDfDfDfDfDfDfDfDNiNiSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJeDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDfDfDfDNiNiNiSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdmWbBKNSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDNiSBNiNiSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsOdOdOdOdDHJeKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHOdOdOdOdSsSsSsSsSsbcbcbcSsSsSsSsSsOdOdOdOdDHbBKNSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDNiSBSBNiSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsbBKNSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDNiNiSBSBSBSBSBSBNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsYTSBSBSBSBSBSBSBSBRNRNRNRNsDsDfDfDfDfDfDfDfDNiNiSBSBSBSBSBSBNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsOdOdOdmWOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdmWOdOdOdSsbcbcbcSsOdOdOdmWOdOdOdOdSsSBSBSBSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDfDfDfDNiNiSBSBSBSBSBSBSBSB
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdDHSBSBSBSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDfDfDfDNiSBSBSBSBSBSBSBSBNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsOdOdOdOdSsOdOdOdSsbcbcbcSsOdOdOdSsOdOdOdOdSsSBSBSBSBSBSBSBSBRNRNRNRNRNsDfDfDfDfDfDfDfDNiNiSBSBSBSBSBSBSBNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDfDfDfDNiNiSBSBSBSBSBSBSBNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBqaSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsqaSBSBSBSBSBSBSBSBRNRNRNsDsDfDfDfDfDfDfDNiNiSBSBSBSBSBSBSBNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJeDHbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBDHbBKNSBSBSBSBSBSBSBRNRNRNsDfDfDfDfDfDfDfDNiNiSBSBSBSBSBSBSBNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsbBbBbBbBSsYkYkYkSsbcbcbcSsYkYkYkSsbBbBbBbBSsbBKNSBSBSBSBSBSBSBRNRNRNsDfDfDfDfDfDfDNiNiSBSBSBSBSBSBSBNiNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBmWHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlmWbBKNSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDfDNiNiNiSBSBSBSBSBSBSBSBNiNi
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFJeSsHlHlHlHlzIbBbBbBPXbcbcbcPXbBbBbBzIHlHlHlHlSsJeKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsHlHlHlHlzIbBbBbBPXbcbcbcPXbBbBbBzIHlHlHlHlSsbBKNSBSBSBSBSBSBRNRNRNsDsDfDfDfDfDNiNiNiSBSBSBSBSBSBSBNiNiNifD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHHlHlHlHlSsSsmWSsSsbcbcbcSsSsmWSsSsHlHlHlHlDHbBKNSBSBSBSBSBSBRNRNRNsDfDfDfDfDfDNiSBNiSBSBSBSBSBSBSBNiNifDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBYTSsHlHlHlHlSsovElElSsbcbcbcSsElElovSsHlHlHlHlSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsHlHlHlHlSsovElElSsbcbcbcSsElElovSsHlHlHlHlSsYTSBSBSBSBSBSBSBRNRNRNsDfDfDfDfDNiNiSBSBSBSBSBSBSBSBSBNiNifDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsSsSsSsSsSsSsSsSsSsbcbcbcSsSsSsSsSsSsSsSsSsSsSBSBSBSBSBSBSBRNRNRNRNsDfDfDfDfDNiNiNiSBSBSBSBSBSBSBNiNifDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBRNRNRNsDsDfDfDfDNiNiNiNiSBSBSBSBSBSBSBNiNifDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkDHSBSBSBSBSBSBSBRNRNRNsDfDfDfDNiNiSBNiSBSBSBSBSBSBSBSBSBfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovovovSsbcbcbcSsovovovSsYkYkYkYkSsSBSBSBSBSBSBSBRNRNRNsDfDfDfDNiNiSBSBSBSBSBSBSBSBSBNiSBfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsovovovSsbcbcbcSsovovovSsSsSsmWSsSsqaSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBqaSsSsmWSsSsSsovovovSsbcbcbcSsovovovSsSsSsmWSsSsqaSBSBSBSBSBRNRNRNRNsDfDfDfDNiNiSBSBSBSBSBSBSBSBSBNiNifDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkSsbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkSsbBKNSBSBSBSBRNRNRNsDsDfDfDfDNiNiNiSBSBSBSBSBSBSBSBNiNifDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBRNRNRNsDfDfDfDNiNiNiNiSBSBSBSBSBSBSBSBNifDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkmWbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBmWYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkmWbBKNSBSBSBSBRNRNRNsDfDfDfDNiNiNiSBSBSBSBSBSBSBSBNiNifDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFJeDHYkYkYkYkYkYkYkYkSsbcbcbcSsYkYkYkYkYkYkYkYkDHbBKNSBSBSBSBRNRNsDsDfDfDfDNiNiSBSBSBSBSBSBSBSBNiNifDfDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkSsJeKNSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYFbBSsYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkSsbBKNSBSBSBSBRNRNsDfDfDfDfDNiNiSBSBSBSBSBSBSBNiNifDfDfDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsHlHlHlSsbcbcbcSsHlHlHlSsSsSsmWSsSsYTSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBYTSsSsmWSsSsSsHlHlHlSsbcbcbcSsHlHlHlSsSsSsmWSsSsYTSBSBSBSBSBRNRNsDfDfDfDNiNiNiSBSBSBSBSBSBSBSBNifDfDfDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsHlHlHlPXbcbcbcPXHlHlHlSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsHlHlHlPXbcbcbcPXHlHlHlSsYkYkYkYkSsSBSBSBSBSBRNRNsDsDfDfDfDNiNiNiSBSBSBSBSBSBSBNifDfDfDfDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkDHSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBDHYkYkYkYkSsSsmWSsSsbcbcbcSsSsmWSsSsYkYkYkYkDHSBSBSBSBSBRNRNsDfDfDfDNiNiNiSBSBSBSBSBSBSBNiNifDfDfDfDfDfDfDfD
+SsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsElElovSsYkYkYkYkSsSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSsYkYkYkYkSsovElElSsbcbcbcSsElElovSsYkYkYkYkSsSBSBSBSBSBRNRNsDfDfDfDNiNiSBSBSBSBSBSBSBSBNiNifDfDfDfDfDfDfDfD
+OsRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNRNSsUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsUZUZUZUZUZUZUZUZUZUZnuUZUZUZUZUZUZUZUZUZUZSsSsSsSsSsSsSsSsSsSsSsfrSsSsSsSsSsSsSsSsSsSsSsqaqaqaqaqawMsDsDfDfDfDNiNiSBSBSBSBSBSBSBNiNifDfDfDfDfDfDfDfDfD
+"}
