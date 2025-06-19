@@ -9,7 +9,7 @@
 	gear_detachable = FALSE
 	gear = /obj/item/extinguisher/linked
 	atom_flags = null
-	initial_capacity = 5000
+	initial_capacity = 50 LITERS
 	initial_reagent_types = list(/datum/reagent/water/firefoam = 1)
 	origin_tech = list(TECH_ENGINEERING = 2)
 	matter = list(MATERIAL_STEEL = 1500, MATERIAL_GLASS = 500)
@@ -27,7 +27,7 @@
 			return
 		O.reagents.remove_any(amount)
 		reagents.add_reagent(/datum/reagent/water/firefoam, amount)
-		to_chat(user, SPAN("notice", "You crack the cap off the top of your [src] and fill it with [amount] units of the contents of \the [O]."))
+		to_chat(user, SPAN("notice", "You crack the cap off the top of your [src] and fill it with [amount] ml of the contents of \the [O]."))
 		playsound(src.loc, 'sound/effects/refill.ogg', 50, 1, -6)
 		return
 
@@ -45,7 +45,7 @@
 	mod_reach = 0.6
 	armor_penetration = 20
 	w_class = ITEM_SIZE_NORMAL
-	spray_amount = 120
+	spray_amount = 1.2 LITERS
 	max_volume = 0
 	safety = 0
 	external_source = TRUE

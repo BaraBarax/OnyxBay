@@ -18,7 +18,7 @@
 
 	var/visible = 1
 	var/p_open = 0
-	var/operating = 0
+	var/operating = DOOR_IDLE
 	var/autoclose = 0
 	var/glass = 0
 	var/normalspeed = 1
@@ -37,9 +37,12 @@
 	var/tryingToLock = FALSE // for autoclosing
 	// turf animation
 	var/atom/movable/fake_overlay/c_animation = null
-	/// Determines whether this door already has thinkg_close context running or not
-	var/thinking_about_closing = FALSE
 	rad_resist_type = /datum/rad_resist/door
+
+	// Don't mess with these unless you absolutely know what you're doing.
+	var/anim_time_1 = 3
+	var/anim_time_2 = 7
+	var/anim_time_3 = 0
 
 /datum/rad_resist/door
 	alpha_particle_resist = 350 MEGA ELECTRONVOLT
@@ -122,14 +125,14 @@
 		var/mob/living/bot/bot = AM
 		if(src.check_access(bot.botcard))
 			if(density)
-				open()
+				INVOKE_ASYNC(src, nameof(.proc/open))
 		return
 
 	if(istype(AM, /obj/mecha))
 		var/obj/mecha/mecha = AM
 		if(density)
 			if(mecha.occupant && (src.allowed(mecha.occupant) || src.check_access_list(mecha.operation_req_access)))
-				open()
+				INVOKE_ASYNC(src, nameof(.proc/open))
 			else
 				do_animate("deny")
 		return
@@ -137,7 +140,7 @@
 		var/obj/structure/bed/chair/wheelchair/wheel = AM
 		if(density)
 			if(wheel.pulling && (src.allowed(wheel.pulling)))
-				open()
+				INVOKE_ASYNC(src, nameof(.proc/open))
 			else
 				do_animate("deny")
 		return
@@ -156,13 +159,16 @@
 
 
 /obj/machinery/door/proc/bumpopen(mob/user)
-	if(operating)	return
+	if(operating)
+		return
 	if(user.last_airflow > world.time - vsc.airflow_delay) //Fakkit
 		return
-	src.add_fingerprint(user)
+	add_fingerprint(user)
 	if(density)
-		if(allowed(user))	open()
-		else				do_animate("deny")
+		if(allowed(user))
+			INVOKE_ASYNC(src, nameof(.proc/open))
+		else
+			do_animate("deny")
 	return
 
 /obj/machinery/door/bullet_act(obj/item/projectile/Proj)
@@ -253,7 +259,7 @@
 		var/obj/item/weldingtool/WT = I
 
 		to_chat(user, SPAN_NOTICE("You start to fix dents and weld \the [repairing] into place."))
-		if(!WT.use_tool(src, user, delay = 5 * repairing.amount, amount = 5))
+		if(!WT.use_tool(src, user, delay = 5 * repairing.amount, amount = 50))
 			return
 
 		if(QDELETED(src) || !user)
@@ -296,7 +302,10 @@
 	if(src.operating) return
 
 	if(allowed(user) && operable())
-		density ? open() : close()
+		if(density)
+			INVOKE_ASYNC(src, nameof(.proc/open))
+		else
+			INVOKE_ASYNC(src, nameof(.proc/close))
 		return
 
 	if(src.density)
@@ -307,8 +316,8 @@
 	if(density && operable())
 		do_animate("spark")
 		sleep(6)
-		open()
-		operating = -1
+		INVOKE_ASYNC(src, nameof(.proc/open))
+		operating = DOOR_FAILURE
 		return 1
 
 /obj/machinery/door/proc/take_damage(damage)
@@ -395,29 +404,40 @@
 	var/wait = normalspeed ? 150 : 5
 	if(!can_open(forced))
 		return FALSE
-	operating = TRUE
+	operating = DOOR_OPENING
+	update_icon()
 
 	do_animate("opening")
 	icon_state = "door0"
 	set_opacity(FALSE)
 	if(filler)
 		filler.set_opacity(opacity)
-	sleep(3)
+
+	if(anim_time_1)
+		sleep(anim_time_1)
+
 	set_density(FALSE)
 	update_nearby_tiles()
 	atom_flags &= ~ATOM_FLAG_FULLTILE_OBJECT
-	sleep(7)
-	layer = open_layer
+
+	if(anim_time_2)
+		sleep(anim_time_2)
+
 	explosion_resistance = 0
-	update_icon()
+	layer = open_layer
 	set_opacity(FALSE)
 	if(filler)
 		filler.set_opacity(opacity)
-	operating = FALSE
+	operating = DOOR_IDLE
+	update_icon()
 
-	if(autoclose && !thinking_about_closing)
-		thinking_about_closing = TRUE
+	if(anim_time_3)
+		sleep(anim_time_3)
+
+	if(autoclose)
 		set_next_think_ctx("close_context", world.time + wait)
+	else
+		set_next_think_ctx("close_context", 0)
 
 	return TRUE
 
@@ -429,25 +449,34 @@
 			set_next_think_ctx("close_context", world.time + wait)
 		return FALSE
 
-	thinking_about_closing = FALSE
-	operating = TRUE
+	operating = DOOR_CLOSING
+	update_icon()
 
 	do_animate("closing")
-	sleep(3)
+
+	if(anim_time_1)
+		sleep(anim_time_1)
+
 	set_density(TRUE)
 	explosion_resistance = initial(explosion_resistance)
 	layer = closed_layer
 	update_nearby_tiles()
 	atom_flags |= ATOM_FLAG_FULLTILE_OBJECT
-	sleep(7)
-	update_icon()
+
+	if(anim_time_2)
+		sleep(anim_time_2)
+
 	if(visible && !glass)
 		set_opacity(TRUE) //caaaaarn!
 		if(filler)
 			filler.set_opacity(opacity)
-	operating = FALSE
-
+	operating = DOOR_IDLE
+	update_icon()
 	shove_everything(shove_mobs = push_mobs, min_w_class = ITEM_SIZE_NORMAL) // Door shields cheesy meta must be gone.
+
+	if(anim_time_3)
+		sleep(anim_time_3)
+
 
 	//I shall not add a check every x ticks if a door has closed over some fire.
 	var/obj/fire/fire = locate() in loc

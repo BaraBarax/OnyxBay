@@ -7,7 +7,7 @@
 	var/mob/living/carbon/human/attached
 	var/mode = 1 // 1 is injecting, 0 is taking blood.
 	var/obj/item/reagent_containers/beaker
-	var/list/transfer_amounts = list(REM, 1, 2)
+	var/list/transfer_amounts = list(REM, 1, 2, 3, 5, 10)
 	var/transfer_amount = 1
 
 /obj/structure/iv_drip/verb/set_APTFT()
@@ -166,7 +166,7 @@
 
 	if(beaker)
 		if(beaker.reagents && beaker.reagents.total_volume)
-			. += "<span class='notice'>Attached is \a [beaker] with [beaker.reagents.total_volume] units of liquid.</span>"
+			. += "<span class='notice'>Attached is \a [beaker] with [beaker.reagents.total_volume] ml of liquid.</span>"
 		else
 			. += "<span class='notice'>Attached is an empty [beaker].</span>"
 	else

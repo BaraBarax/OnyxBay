@@ -264,6 +264,9 @@
 			user.visible_message(SPAN("notice", "\The [user] places \the [M] into \the [src]."), SPAN("notice", "You place \the [M] into \the [src]."))
 	return
 
+/obj/machinery/atmospherics/unary/cryo_cell/AltClick(mob/user)
+	grab_container(user, &beaker, get_step(loc, SOUTH))
+
 /obj/machinery/atmospherics/unary/cryo_cell/on_update_icon()
 	ClearOverlays()
 	var/overlays_state = 0
@@ -310,7 +313,7 @@
 		if(beaker && !has_cryo_medicine && !emagged)
 			beaker.reagents.trans_to_mob(occupant, REM, CHEM_BLOOD)
 		if(occupant.InStasis() && !biochemical_stasis)
-			occupant.handle_chemicals_in_body(handle_ingested = FALSE)
+			occupant.handle_chemicals_in_body(handle_ingested = FALSE, handle_digested = FALSE)
 		if(emagged)
 			if(prob(5))
 				to_chat(occupant, SPAN("notice", "You feel strange."))

@@ -170,8 +170,8 @@
 	required_type = /obj/mecha/working
 	need_colorize = FALSE
 	var/spray_particles = 5
-	var/spray_amount = 200	//units of liquid per spray
-	var/max_volume = 5000
+	var/spray_amount = 2 LITERS //units of liquid per spray
+	var/max_volume = 50 LITERS
 	var/ff_reagent = /datum/reagent/water/firefoam
 
 /obj/item/mecha_parts/mecha_equipment/tool/extinguisher/New()
@@ -197,7 +197,7 @@
 				return
 			O.reagents.remove_any(amount)
 			reagents.add_reagent(ff_reagent, amount)
-			occupant_message(SPAN("notice", "[amount] units transferred into internal tank."))
+			occupant_message(SPAN("notice", "[amount] ml transferred into internal tank."))
 			playsound(chassis, 'sound/effects/refill.ogg', 50, 1, -6)
 			return
 
@@ -850,7 +850,7 @@
 		else if(!result)
 			message = "Unit is full."
 		else
-			message = "[result] unit\s of [fuel] successfully loaded."
+			message = "[result] ml of [fuel] successfully loaded."
 			send_byjax(chassis.occupant, "exosuit.browser", "\ref[src]", src.get_equip_info())
 		occupant_message(message)
 	return
@@ -876,7 +876,7 @@
 	else if(!result)
 		to_chat(user, "Unit is full.")
 	else
-		user.visible_message("[user] loads [src] with [fuel].","[result] unit\s of [fuel] successfully loaded.")
+		user.visible_message("[user] loads [src] with [fuel].","[result] ml of [fuel] successfully loaded.")
 	return
 
 /obj/item/mecha_parts/mecha_equipment/generator/critfail()

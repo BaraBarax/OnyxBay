@@ -41,8 +41,8 @@
 	mod_reach = 0.6
 	armor_penetration = 5
 	w_class = ITEM_SIZE_SMALL
-	spray_amount = 80
-	max_volume = 1000
+	spray_amount = 0.8 LITERS
+	max_volume = 10 LITERS
 	sprite_name = "miniFE"
 	matter = list(MATERIAL_STEEL = 500)
 
@@ -55,7 +55,7 @@
 	. = ..()
 
 	if((get_dist(src, user) <= 0) && !external_source)
-		. += "[text("\icon[] [] contains [] units of reagents left!", src, src.name, src.reagents.total_volume)]"
+		. += "[text("\icon[] [] contains [] ml of reagents left!", src, src.name, src.reagents.total_volume)]"
 
 /obj/item/extinguisher/attack_self(mob/user)
 	if(external_source)
@@ -125,7 +125,7 @@
 			return
 		O.reagents.remove_any(amount)
 		reagents.add_reagent(ff_reagent, amount)
-		to_chat(user, SPAN("notice", "You fill [src] with [amount] units of the contents of [O]."))
+		to_chat(user, SPAN("notice", "You fill [src] with [amount] ml of the contents of [O]."))
 		playsound(src.loc, 'sound/effects/refill.ogg', 50, 1, -6)
 		return
 

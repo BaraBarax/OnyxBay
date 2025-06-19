@@ -120,13 +120,11 @@
 	handle_paralysed()
 	handle_supernatural()
 
-	mob_ai.attempt_escape()
-
-	mob_ai.process_moving()
-
-	mob_ai.process_speaking()
-
-	mob_ai.process_special_actions()
+	if(mob_ai)
+		mob_ai.attempt_escape()
+		mob_ai.process_moving()
+		mob_ai.process_speaking()
+		mob_ai.process_special_actions()
 
 	if(in_stasis)
 		return 1
@@ -249,11 +247,10 @@
 			O.attack(src, user, user.zone_sel.selecting)
 
 /mob/living/simple_animal/hit_with_weapon(obj/item/O, mob/living/user, effective_force, hit_zone)
-
-	visible_message("<span class='danger'>\The [src] has been attacked with \the [O] by [user]!</span>")
+	visible_message(SPAN("danger", "\The [src] has been [O.attack_verb.len? pick(O.attack_verb) : "attacked"] with \the [O] by [user]!"))
 
 	if(O.force <= resistance)
-		to_chat(user, "<span class='danger'>This weapon is ineffective; it does no damage.</span>")
+		visible_message(SPAN("danger", "[user] attacks \the [src] with \the [O], but it bounces off!"))
 		return 2
 
 	var/damage = O.force

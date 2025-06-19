@@ -155,10 +155,24 @@ REAGENT SCANNER
 	// Other general warnings.
 	if(H.getOxyLoss() > 50)
 		status_data += "<span class='info'><b>Severe oxygen deprivation detected.</b></span>"
-	if(H.getToxLoss() > 50)
+
+	var/toxLoss = H.getToxLoss()
+	if(toxLoss > 80)
+		status_data += "<font color='lime'><b>Extreme toxic buildup detected.</b></font>"
+	else if(toxLoss > 50)
+		status_data += "<font color='lime'><b>Severe toxic buildup detected.</b></font>"
+	else if(toxLoss > 20)
+		status_data += "<font color='lime'><b>Mild toxic buildup detected.</b></font>"
+
+	var/internalLoss = H.getInternalLoss()
+	if(internalLoss > 100)
 		status_data += "<font color='black'><b>Major systemic organ failure detected.</b></font>"
+	else if(internalLoss > 50)
+		status_data += "<font color='black'><b>Systemic organ failure detected.</b></font>"
+
 	if(H.getFireLoss() > 50)
 		status_data += "<font color='#ffa500'><b>Severe burn damage detected.</b></font>"
+
 	if(H.getBruteLoss() > 50)
 		status_data += "<font color='red'><b>Severe anatomical damage detected.</b></font>"
 
@@ -177,6 +191,10 @@ REAGENT SCANNER
 			status_data += "<span class='danger'>Patient is unstable, administer a single dose of inaprovaline.</span>"
 		if(H.get_blood_volume() <= 500 && H.nutrition < 150)
 			status_data += "<span class='warning'>Administer food or recommend the patient to eat.</span>"
+		if(H.hydration <= HYDRATION_LOW)
+			status_data += "<span class='warning'>Mild dehydration: administer liquid intake or recommend the patient to drink.</span>"
+		else if(H.hydration <= HYDRATION_NONE)
+			status_data += "<span class='danger'>Severe dehydration! Administer liquid intake immediately.</span>"
 
 	var/specific_limb_data = list()
 	var/overall_limbs_data = list()
@@ -526,7 +544,7 @@ REAGENT SCANNER
 
 /obj/item/device/mass_spectrometer/New()
 	..()
-	create_reagents(5)
+	create_reagents(50)
 
 /obj/item/device/mass_spectrometer/on_reagent_change()
 	update_icon()
@@ -557,14 +575,14 @@ REAGENT SCANNER
 		for(var/T in blood_traces)
 			var/datum/reagent/R = text2path(T)
 			if(details)
-				dat += "[initial(R.name)] ([blood_traces[T]] units) "
+				dat += "[initial(R.name)] ([blood_traces[T]] ml) "
 			else
 				dat += "[initial(R.name)] "
 		if(details)
 			dat += "\nMetabolism Products of Chemicals Found:"
 			for(var/T in blood_doses)
 				var/datum/reagent/R = text2path(T)
-				dat += "[initial(R.name)] ([blood_doses[T]] units) "
+				dat += "[initial(R.name)] ([blood_doses[T]] ml) "
 		to_chat(user, "[dat]")
 		reagents.clear_reagents()
 	return
@@ -613,7 +631,7 @@ REAGENT SCANNER
 		var/list/reagents_block
 
 		for(var/datum/reagent/reagent in target.reagents.reagent_list)
-			LAZYADD(reagents_block, SPAN_NOTICE("[round(reagent.volume, 0.001)] units of [reagent.name]\n"))
+			LAZYADD(reagents_block, SPAN_NOTICE("[round(reagent.volume, 0.001)] ml of [reagent.name]\n"))
 
 		if(!length(reagents_block))
 			LAZYADD(reagents_out, SPAN_NOTICE("No active chemical agents found in \the [target]."))

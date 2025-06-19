@@ -216,6 +216,13 @@
 			stasis = text2num(href_list["stasis"])
 			return TOPIC_REFRESH
 
+/obj/machinery/sleeper/AltClick(mob/user)
+	if(grab_container(user, &beaker))
+		toggle_filter()
+		toggle_pump()
+		for(var/obj/item/reagent_containers/vessel/beaker/A in component_parts)
+			component_parts -= A
+
 /obj/machinery/sleeper/attack_ai(mob/user)
 	return attack_hand(user)
 
@@ -432,7 +439,7 @@
 		if(occupant.reagents.get_reagent_amount(chemical_type) + amount <= 20)
 			use_power_oneoff(amount * CHEM_SYNTH_ENERGY)
 			occupant.reagents.add_reagent(chemical_type, amount)
-			to_chat(user, "Occupant now has [occupant.reagents.get_reagent_amount(chemical_type)] unit\s of [chemical_name] in their bloodstream.")
+			to_chat(user, "Occupant now has [occupant.reagents.get_reagent_amount(chemical_type)] ml of [chemical_name] in their bloodstream.")
 		else
 			to_chat(user, "The subject has too many chemicals.")
 	else

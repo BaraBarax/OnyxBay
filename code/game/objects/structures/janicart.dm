@@ -18,14 +18,14 @@
 
 /obj/structure/janitorialcart/New()
 	..()
-	create_reagents(180)
+	create_reagents(1.8 LITERS)
 
 
 /obj/structure/janitorialcart/examine(mob/user, infix)
 	. = ..()
 
 	if(get_dist(src, user) <= 1)
-		. += "[src] \icon[src] contains [reagents.total_volume] unit\s of liquid!"
+		. += "[src] \icon[src] contains [reagents.total_volume] ml of liquid!"
 
 
 /obj/structure/janitorialcart/attackby(obj/item/I, mob/user)
@@ -186,7 +186,7 @@
 
 /obj/structure/bed/chair/janicart/New()
 	..()
-	create_reagents(100)
+	create_reagents(1 LITER)
 
 
 /obj/structure/bed/chair/janicart/examine(mob/user, infix)
@@ -195,7 +195,7 @@
 	if(get_dist(src, user) > 1)
 		return
 
-	. += "\icon[src] This [callme] contains [reagents.total_volume] unit\s of water!"
+	. += "\icon[src] This [callme] contains [reagents.total_volume] ml of water!"
 	if(mybag)
 		. += "\A [mybag] is hanging on the [callme]."
 

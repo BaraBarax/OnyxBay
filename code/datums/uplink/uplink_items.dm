@@ -36,7 +36,7 @@ var/datum/uplink/uplink = new()
 			continue
 
 		var/datum/uplink_item/A = new I.type
-		if(I.item_cost <= 1)
+		if(I.item_cost <= 1 || initial(I.item_cost) == 0)
 			continue
 
 		var/discount = pick(90;0.9, 80;0.8, 70;0.7, 60;0.6, 50;0.5, 40;0.4, 30;0.3, 20;0.2, 10;0.1)
@@ -86,6 +86,7 @@ var/datum/uplink/uplink = new()
 	var/list/datum/antagonist/antag_roles = list() // Antag roles this item is displayed to. If empty, display to all.
 	var/list/datum/antagonist/job_specific = list() // Jobs this item is displayed to. Contains job names, not datums.
 	var/path = null
+	var/meme_item = FALSE // This item is considered extremely memey
 
 /datum/uplink_item/proc/buy(datum/component/uplink/U, mob/user)
 	var/extra_args = extra_args(user)
@@ -123,6 +124,9 @@ var/datum/uplink/uplink = new()
 		return FALSE
 
 	if(length(job_specific) && !(U.owner.assigned_role in job_specific))
+		return FALSE
+
+	if(meme_item && !config.misc.meme_content)
 		return FALSE
 
 	if(!length(antag_roles))

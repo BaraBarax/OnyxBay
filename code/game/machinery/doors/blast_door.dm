@@ -26,7 +26,7 @@
 	var/open_sound = 'sound/machines/blastdoor_open.ogg'
 	var/close_sound = 'sound/machines/blastdoor_close.ogg'
 
-	closed_layer = ABOVE_WINDOW_LAYER
+	closed_layer = BLASTDOOR_LAYER
 	var/id = 1.0
 	dir = 1
 	explosion_resistance = 25
@@ -251,6 +251,7 @@
 
 /obj/machinery/door/blast/regular/open
 	begins_closed = FALSE
+	icon_state = "pdoor0"
 
 /obj/machinery/door/blast/regular/singulo/emp_act()
 	return
@@ -263,6 +264,10 @@
 	icon_state_closing = "old_pdoorc1"
 	icon_state = "old_pdoor1"
 	maxhealth = 300
+
+/obj/machinery/door/blast/regular/retro/open
+	begins_closed = FALSE
+	icon_state = "pdoor0"
 
 // SUBTYPE: Shutters
 // Nicer looking, and also weaker, shutters. Found in kitchen and similar areas.
@@ -279,3 +284,4 @@
 
 /obj/machinery/door/blast/shutters/open
 	begins_closed = FALSE
+	icon_state = "shutter0"

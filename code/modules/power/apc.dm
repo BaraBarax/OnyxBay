@@ -206,6 +206,7 @@
 
 	if(!QDELETED(cell))
 		cell.forceMove(loc)
+		cell.update_icon()
 	cell = null
 
 	GLOB.apc_list -= src
@@ -564,7 +565,7 @@
 		user.visible_message("<span class='warning'>[user.name] welds [src].</span>", \
 							"You start welding the APC frame...", \
 							"You hear welding.")
-		if(!WT.use_tool(src, user, delay = 5 SECONDS, amount = 5))
+		if(!WT.use_tool(src, user, delay = 5 SECONDS, amount = 50))
 			return
 
 		if(QDELETED(src) || !user)
@@ -832,7 +833,7 @@
 	return wires.IsIndexCut(wireIndex)
 
 
-/obj/machinery/power/apc/proc/can_use(mob/user as mob, loud = 0) //used by attack_hand() and Topic()
+/obj/machinery/power/apc/can_use(mob/user as mob, loud = 0) //used by attack_hand() and Topic()
 	if (user.stat)
 		to_chat(user, "<span class='warning'>You must be conscious to use [src]!</span>")
 		return 0

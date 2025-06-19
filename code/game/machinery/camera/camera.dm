@@ -337,7 +337,7 @@
 	camera_alarm.clearAlarm(loc, src)
 
 //if false, then the camera is listed as DEACTIVATED and cannot be used
-/obj/machinery/camera/proc/can_use()
+/obj/machinery/camera/can_use()
 	if(!status)
 		return 0
 	if(stat & (EMPED|BROKEN))
@@ -392,7 +392,7 @@
 
 /obj/machinery/camera/proc/weld(obj/item/weldingtool/WT, mob/user)
 	to_chat(user, "<span class='notice'>You start to weld the [src]..</span>")
-	if(!WT.use_tool(src, user, delay = 5 SECONDS, amount = 5))
+	if(!WT.use_tool(src, user, delay = 5 SECONDS, amount = 50))
 		return FALSE
 
 	if(QDELETED(src))
